@@ -20,15 +20,14 @@ public class Application implements StreamingApplication
     RandomNumberGenerator randomGenerator = dag.addOperator("randomGenerator", RandomNumberGenerator.class);
     randomGenerator.setNumTuples(500);
     NumberClassification numCl=dag.addOperator("NumberClassifier",NumberClassification.class);
-    ConsoleOutputOperator consOdd = dag.addOperator("consoleOdd", new ConsoleOutputOperator());
-    ConsoleOutputOperator consEven = dag.addOperator("consoleEven", new ConsoleOutputOperator());
-    ConsoleOutputOperator consPrime = dag.addOperator("consolePrime", new ConsoleOutputOperator());
+//    ConsoleOutputOperator consOdd = dag.addOperator("consoleOdd", new ConsoleOutputOperator());
+//    ConsoleOutputOperator consPrime = dag.addOperator("consolePrime", new ConsoleOutputOperator());
     WriteToFile fileEven = dag.addOperator("fileEven",WriteToFile.class);
     WriteToFile filePrime = dag.addOperator("filePrime",WriteToFile.class);
     //Add Streams
 
     dag.addStream("Generator To Classifier",randomGenerator.out,numCl.input);
-    dag.addStream("Odd Number to Console",numCl.outputOdd,consOdd.input);
+//    dag.addStream("Odd Number to Console",numCl.outputOdd,consOdd.input);
     dag.addStream("Even Number to File",numCl.outputEven,fileEven.input);
     dag.addStream("Prime Number to File",numCl.outputPrime,filePrime.input);
 
