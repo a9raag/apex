@@ -25,8 +25,7 @@ public class Application implements StreamingApplication
     WriteToFile fileEven = dag.addOperator("fileEven",WriteToFile.class);
     WriteToFile filePrime = dag.addOperator("filePrime",WriteToFile.class);
     //Add Streams
-
-    dag.addStream("Generator To Classifier",randomGenerator.out,numCl.input);
+    dag.addStream("Generator To Classifier",randomGenerator.out,numCl.input).setLocality(DAG.Locality.CONTAINER_LOCAL);
 //    dag.addStream("Odd Number to Console",numCl.outputOdd,consOdd.input);
     dag.addStream("Even Number to File",numCl.outputEven,fileEven.input);
     dag.addStream("Prime Number to File",numCl.outputPrime,filePrime.input);
