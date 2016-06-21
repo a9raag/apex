@@ -7,7 +7,7 @@ import com.datatorrent.lib.io.fs.AbstractFileOutputOperator;
  */
 public class WriteToFile extends AbstractFileOutputOperator<String> {
     public WriteToFile(){
-        filePath = "/NumClass";
+        filePath = "NumClass";
     }
     @Override
     protected String getFileName(String s) {
