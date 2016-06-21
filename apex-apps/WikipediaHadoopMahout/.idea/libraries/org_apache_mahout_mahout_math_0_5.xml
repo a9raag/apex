@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="org.apache.mahout:mahout-math:0.5" type="repository">
+    <properties maven-id="org.apache.mahout:mahout-math:0.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-math/0.5/mahout-math-0.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math/2.1/commons-math-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/maths/uncommons-maths/1.2/uncommons-maths-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/r03/guava-r03.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-collections/1.0/mahout-collections-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
