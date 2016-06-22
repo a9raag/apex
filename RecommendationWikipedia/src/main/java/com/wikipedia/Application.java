@@ -24,6 +24,13 @@ public class Application implements StreamingApplication
 //    RandomNumberGenerator randomGenerator = dag.addOperator("randomGenerator", RandomNumberGenerator.class);
 //    randomGenerator.setNumTuples(500);
 //
+
+
+
+      
+
+
+
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
       ItemCooccurrences cRow=dag.addOperator("cooccurrenceRow",new ItemCooccurrences());
       UniqueCounter<String> counter= dag.addOperator("Cooccurrences",new UniqueCounter<String>());
