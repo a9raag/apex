@@ -1,0 +1,1 @@
+{"attributes":{"APPLICATION_PATH":"file:\/home\/anurag\/RecommendationWikipedia\/target\/com.datatorrent.stram.StramLocalCluster\/","STREAMING_WINDOW_SIZE_MILLIS":500,"STORAGE_AGENT":"com.datatorrent.common.util.AsyncFSStorageAgent@79063635","APPLICATION_NAME":"WikipediApplication","APPLICATION_ID":"app_local_1466572704963","CHECKPOINT_WINDOW_COUNT":60},"metrics":{}}
