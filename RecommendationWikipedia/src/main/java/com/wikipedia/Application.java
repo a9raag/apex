@@ -9,7 +9,6 @@ import org.apache.hadoop.conf.Configuration;
 import com.datatorrent.api.annotation.ApplicationAnnotation;
 import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.DAG;
-import com.datatorrent.api.DAG.Locality;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
 
 @ApplicationAnnotation(name="WikipediApplication")
@@ -26,12 +25,13 @@ public class Application implements StreamingApplication
 //    randomGenerator.setNumTuples(500);
 //
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
-      CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
+      ItemCooccurrences cRow=dag.addOperator("cooccurrenceRow",new ItemCooccurrences());
       UniqueCounter<String> counter= dag.addOperator("Cooccurrences",new UniqueCounter<String>());
       ConsoleOutputOperator cons = dag.addOperator("console", new ConsoleOutputOperator());
       dag.addStream("Read The File",readFile.output,cRow.hashInput);
       dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data);
       dag.addStream("Proudce Cooccurrence Counter",counter.count,cons.input);
+
 
 //    dag.addStream("randomData", randomGenerator.out, cons.input).setLocality(Locality.CONTAINER_LOCAL);
   }

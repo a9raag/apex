@@ -1,8 +1,7 @@
 package com.wikipedia;
 
-import org.apache.mahout.math.RandomAccessSparseVector;
+import org.apache.mahout.math.*;
 import org.apache.mahout.math.Vector;
-import org.apache.mahout.math.VectorWritable;
 
 import java.util.*;
 import java.util.regex.Matcher;
@@ -23,6 +22,7 @@ public class Test {
 
 
         Vector userVector= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
+        VectorWritable v = new VectorWritable();
         List<Integer> itemIDs= new ArrayList<>();
         while (m.find()) {
             userVector.set(Integer.parseInt(m.group()),1.0f);
