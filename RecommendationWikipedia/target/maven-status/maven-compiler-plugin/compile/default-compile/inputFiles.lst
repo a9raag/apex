@@ -1,7 +1,7 @@
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/ItemCooccurrences.java
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/WikipediaToItemPrefsMapper.java
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/Test.java
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/RandomNumberGenerator.java
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/ReadFile.java
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/CooccureneceRows.java
-/home/anurag/apex-all/RecommendationWikipedia/src/main/java/com/wikipedia/Application.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/RandomNumberGenerator.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/WikipediaToItemPrefsMapper.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/Test.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/CooccurrenceRow.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/Application.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/BuildRecommendation.java
+/home/anurag/RecommendationWikipedia/src/main/java/com/wikipedia/ReadFile.java

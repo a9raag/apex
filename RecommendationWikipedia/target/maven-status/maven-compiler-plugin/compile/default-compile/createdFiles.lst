@@ -1,9 +1,10 @@
-com/wikipedia/ItemCooccurrences.class
 com/wikipedia/Test.class
+com/wikipedia/CooccurrenceRow.class
 com/wikipedia/RandomNumberGenerator.class
-com/wikipedia/ItemCooccurrences$1.class
 com/wikipedia/ReadFile.class
-com/wikipedia/CooccureneceRows.class
-com/wikipedia/Application.class
+com/wikipedia/BuildRecommendation$2.class
+com/wikipedia/BuildRecommendation.class
+com/wikipedia/CooccurrenceRow$1.class
 com/wikipedia/WikipediaToItemPrefsMapper.class
-com/wikipedia/CooccureneceRows$1.class
+com/wikipedia/Application.class
+com/wikipedia/BuildRecommendation$1.class

@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -21,7 +22,7 @@ import java.util.regex.Pattern;
  */
 public class ReadFile extends AbstractFileInputOperator<String> {
     public transient final DefaultOutputPort<HashMap<Integer,Vector>> output = new DefaultOutputPort<>();
-
+    public transient final DefaultOutputPort<HashMap<Integer,Vector>> vector = new DefaultOutputPort<>();
     private transient BufferedReader br;
 
     @Override
@@ -37,7 +38,6 @@ public class ReadFile extends AbstractFileInputOperator<String> {
     protected String readEntity() throws IOException {
         return br.readLine();
     }
-
     @Override
     protected void emit(String s) {
         Pattern Numbers= Pattern.compile("(\\d+)");
@@ -48,11 +48,19 @@ public class ReadFile extends AbstractFileInputOperator<String> {
         Vector userVector= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
         List<Integer> itemIDs= new ArrayList<>();
         while (m.find()) {
-            userVector.set(Integer.parseInt(m.group()),1.0f);
+            int pref=(int)(Math.random()*10);
+            if (pref==0)
+                pref+=1;
+            userVector.set(Integer.parseInt(m.group()), pref);
         }
         map.put(userId,userVector);
         output.emit(map);
-
+        vector.emit(map);
     }
 
+    @Override
+    protected void closeFile(InputStream is) throws IOException {
+        super.closeFile(is);
+        br.close();
+    }
 }

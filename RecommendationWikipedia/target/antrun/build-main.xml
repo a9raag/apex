@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <move file="/home/anurag/apex-all/RecommendationWikipedia/target/recommender-1.0-SNAPSHOT-apexapp.jar" tofile="/home/anurag/apex-all/RecommendationWikipedia/target/recommender-1.0-SNAPSHOT.apa"/>
+  <move file="/home/anurag/RecommendationWikipedia/target/recommender-1.0-SNAPSHOT-apexapp.jar" tofile="/home/anurag/RecommendationWikipedia/target/recommender-1.0-SNAPSHOT.apa"/>
 </target>
 </project>
