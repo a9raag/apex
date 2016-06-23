@@ -18,7 +18,7 @@
   </property>
   <property>
     <name>dt.application.WikipediApplication.operator.readFile.prop.directory</name>
-    <value>file:///home/anurag/RecommendationWikipedia/src/main/resources/Data/</value>
+    <value>input/</value>
     <!--<value>/Data/</value>-->
   </property>
     <property>
