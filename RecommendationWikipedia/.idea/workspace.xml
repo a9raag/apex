@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,12 +108,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CooccurrenceRow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+              <folding>
+                <element signature="e#1418#1419#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,13 +154,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/WikipediaToItemPrefsMapper.java" />
         <option value="$PROJECT_DIR$/src/site/Data/links.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
       </list>
     </option>
   </component>
@@ -705,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466755937392</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="swap&#10;">
+      <created>1466756390285</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1466756390285</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -812,7 +830,8 @@
     <MESSAGE value="ReadFile error fixed" />
     <MESSAGE value="tuple size 100" />
     <MESSAGE value="Modified Tuple Size and Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Tuple Size and Data" />
+    <MESSAGE value="swap&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="swap&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -829,7 +848,7 @@
           <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="e#1418#1419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,7 +902,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="e#1418#1419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -956,7 +975,7 @@
           <caret line="20" column="78" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="e#1418#1419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1144,17 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1308#1309#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1246,6 +1254,16 @@
         <state relative-caret-position="378">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+          <folding>
+            <element signature="e#1418#1419#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

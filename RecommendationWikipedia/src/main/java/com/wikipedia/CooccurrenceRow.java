@@ -3,6 +3,7 @@ package com.wikipedia;
 import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
+import org.apache.mahout.math.RandomAccessSparseVector;
 import org.apache.mahout.math.Vector;
 
 import java.util.HashMap;
@@ -13,10 +14,10 @@ import java.util.Iterator;
  */
 public class CooccurrenceRow extends BaseOperator  {
     public  transient  final DefaultOutputPort<String> coOccures= new DefaultOutputPort<>();
-    public transient final DefaultInputPort<HashMap<Integer,Vector>> hashInput=new DefaultInputPort<HashMap<Integer, Vector>>() {
+    public transient final DefaultInputPort<HashMap<Integer,RandomAccessSparseVector>> hashInput=new DefaultInputPort<HashMap<Integer, RandomAccessSparseVector>>() {
 
         @Override
-        public void process(HashMap<Integer, Vector> tuple) {
+        public void process(HashMap<Integer, RandomAccessSparseVector> tuple) {
             int key=tuple.keySet().iterator().next();
             Iterable<Vector.Element> iterable = tuple.get(key).nonZeroes();
             Iterator<Vector.Element> it= iterable.iterator();
