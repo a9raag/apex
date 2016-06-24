@@ -62,6 +62,7 @@ public class BuildRecommendation extends BaseOperator {
                         Vector u = userMap.get(userID);
                         Double rIndex = R.get(X);
                         Double uIndex = u.get(Y);
+//                        R[x] += U[y]*Cooccurrences
                         R.set(X, rIndex + uIndex * pref);
                         output.put(userID, R);
                     }
