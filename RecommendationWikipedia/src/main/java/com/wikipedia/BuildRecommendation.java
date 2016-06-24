@@ -52,7 +52,6 @@ public class BuildRecommendation extends BaseOperator {
                 Integer X = Integer.parseInt(m.group());
                 m.find();
                 Integer Y = Integer.parseInt(m.group());
-                m.find();
                 Integer pref = tuple.get(key);
                 Iterator<HashMap<Integer,Vector>> userIterator=userMaps.listIterator();
                 while(userIterator.hasNext()) {
@@ -68,9 +67,9 @@ public class BuildRecommendation extends BaseOperator {
                     }
 
                 }
-                Rout.emit(output);
-            }
 
+            }
+            Rout.emit(output);
 
 
         }

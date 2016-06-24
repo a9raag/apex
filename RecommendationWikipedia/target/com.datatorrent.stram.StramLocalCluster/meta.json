@@ -1,0 +1,1 @@
+{"attributes":{"APPLICATION_PATH":"file:\/home\/anurag\/apex-all\/RecommendationWikipedia\/target\/com.datatorrent.stram.StramLocalCluster\/","STREAMING_WINDOW_SIZE_MILLIS":500,"STORAGE_AGENT":"com.datatorrent.common.util.AsyncFSStorageAgent@7007944f","APPLICATION_NAME":"WikipediaApplication","APPLICATION_ID":"app_local_1466771790059","CHECKPOINT_WINDOW_COUNT":60},"metrics":{}}
