@@ -68,9 +68,9 @@ public class BuildRecommendation extends BaseOperator {
                     }
 
                 }
+                Rout.emit(output);
+            }
 
-            }           
-            Rout.emit(output);
 
 
         }
