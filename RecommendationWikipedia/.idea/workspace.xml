@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NumberClassification/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/../NumberClassification/src/main/resources/META-INF/properties.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
