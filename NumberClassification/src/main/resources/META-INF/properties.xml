@@ -14,7 +14,7 @@
   -->
   <property>
     <name>dt.application.MyFirstApplication.operator.randomGenerator.prop.numTuples</name>
-    <value>1002</value>
+    <value>1004</value>
   </property>
   <property>
     <name>dt.application.MyFirstApplication.operator.console.prop.stringFormat</name>
