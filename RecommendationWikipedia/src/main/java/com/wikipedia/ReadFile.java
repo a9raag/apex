@@ -66,6 +66,7 @@ public class ReadFile extends AbstractFileInputOperator<String> {
             output.emit(map);
             vector.emit(map);
         }
+
     }
 
     @Override
