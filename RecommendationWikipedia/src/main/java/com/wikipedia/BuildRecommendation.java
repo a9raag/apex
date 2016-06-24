@@ -4,6 +4,7 @@ import com.datatorrent.api.Context;
 import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
+import org.apache.hadoop.util.hash.Hash;
 import org.apache.mahout.cf.taste.model.PreferenceArray;
 import org.apache.mahout.math.RandomAccessSparseVector;
 import org.apache.mahout.math.Vector;
@@ -22,7 +23,7 @@ public class BuildRecommendation extends BaseOperator {
     Vector R;
     List<HashMap<Integer,Vector>> userMaps;
     Integer cnt;
-    public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
+    public transient  final DefaultOutputPort<HashMap<Integer,Vector>> Rout = new DefaultOutputPort<>();
     @Override
     public void setup(Context.OperatorContext context) {
         R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
@@ -68,12 +69,8 @@ public class BuildRecommendation extends BaseOperator {
 
                 }
 
-            }
-            Iterator<Integer> userIDs=output.keySet().iterator();
-            while(userIDs.hasNext()){
-                Vector vector=output.get(userIDs.next());
-                Rout.emit(userIDs.toString()+":"+vector.toString()+"\n");
-            }
+            }           
+            Rout.emit(output);
 
 
         }

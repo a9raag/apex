@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -72,13 +66,8 @@
             <state relative-caret-position="288">
               <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#506#514#0" expanded="false" />
-                <element signature="e#742#743#0" expanded="false" />
-                <element signature="e#768#769#0" expanded="false" />
-                <element signature="e#925#926#0" expanded="false" />
-                <element signature="e#961#962#0" expanded="false" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="892">
+              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -139,8 +128,8 @@
       <file leaf-file-name="CooccurrenceRow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="450">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,11 +161,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
       </list>
     </option>
   </component>
@@ -921,13 +910,8 @@
         <state relative-caret-position="288">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#514#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,13 +963,8 @@
         <state relative-caret-position="288">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#514#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1003,13 +982,8 @@
         <state relative-caret-position="288">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#514#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1035,13 +1009,8 @@
         <state relative-caret-position="288">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#514#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,13 +1084,8 @@
         <state relative-caret-position="288">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#514#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1244,22 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/RandomNumberGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#506#514#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="678">
@@ -1286,22 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -1317,6 +1249,33 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/RandomNumberGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
