@@ -48,7 +48,7 @@ public class ReadFile extends AbstractFileInputOperator<String> {
     }
     @Override
     protected void emit(String s) {
-        if(count++<numTuples) {
+
             Pattern Numbers = Pattern.compile("(\\d+)");
             Matcher m = Numbers.matcher(s);
             HashMap<Integer, Vector> map = new HashMap<>();
@@ -65,7 +65,7 @@ public class ReadFile extends AbstractFileInputOperator<String> {
             map.put(userId, userVector);
             output.emit(map);
             vector.emit(map);
-        }
+
 
     }
 
