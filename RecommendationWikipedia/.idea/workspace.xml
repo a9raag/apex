@@ -5,37 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationList.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.42328551635975.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/576bd4c4000001df" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/576bd4c4000001df" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/576bd4c4000001df" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/576bd4c4000001df" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/ReadFile.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/ReadFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/._tmp.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/._tmp.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="879">
-              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+            <state relative-caret-position="501">
+              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -136,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="378">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -173,10 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
       </list>
     </option>
   </component>
@@ -725,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466750015444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modified Tuple Size and Data">
+      <created>1466755937392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466755937392</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -772,7 +752,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -831,7 +811,8 @@
     <MESSAGE value="LimitTuples" />
     <MESSAGE value="ReadFile error fixed" />
     <MESSAGE value="tuple size 100" />
-    <option name="LAST_COMMIT_MESSAGE" value="tuple size 100" />
+    <MESSAGE value="Modified Tuple Size and Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Tuple Size and Data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1212,14 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
@@ -1262,8 +1235,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+        <state relative-caret-position="501">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
