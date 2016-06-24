@@ -17,9 +17,9 @@
     <value>1000</value>
   </property>
   <property>
-    <name>dt.application.WikipediApplication.operator.readFile.prop.directory</name>
-    <value>file:///home/anurag/RecommendationWikipedia/src/main/resources/Data/</value>
-    <!--<value>/Data/</value>-->
+    <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
+    <!--<value>input/</value>-->
+    <value>/Data/</value>
   </property>
     <property>
         <name>dt.application.MyFirstApplication.operator.readFile.prop.scanner.filePatternRegexp</name>

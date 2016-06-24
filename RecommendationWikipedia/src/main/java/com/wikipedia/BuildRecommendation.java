@@ -22,7 +22,7 @@ public class BuildRecommendation extends BaseOperator {
     Vector R;
     List<HashMap<Integer,Vector>> userMaps;
     Integer cnt;
-    public transient  final DefaultOutputPort<HashMap<Integer,Vector>> Rout = new DefaultOutputPort<>();
+    public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
     @Override
     public void setup(Context.OperatorContext context) {
         R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
@@ -69,7 +69,11 @@ public class BuildRecommendation extends BaseOperator {
                 }
 
             }
-            Rout.emit(output);
+            Iterator<Integer> userIDs=output.keySet().iterator();
+            while(userIDs.hasNext()){
+                Vector vector=output.get(userIDs.next());
+                Rout.emit(userIDs.toString()+":"+vector.toString());
+            }
 
 
         }
