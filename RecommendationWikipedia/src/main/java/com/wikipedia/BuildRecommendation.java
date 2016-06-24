@@ -72,7 +72,7 @@ public class BuildRecommendation extends BaseOperator {
             Iterator<Integer> userIDs=output.keySet().iterator();
             while(userIDs.hasNext()){
                 Vector vector=output.get(userIDs.next());
-                Rout.emit(userIDs.toString()+":"+vector.toString());
+                Rout.emit(userIDs.toString()+":"+vector.toString()+"\n");
             }
 
 

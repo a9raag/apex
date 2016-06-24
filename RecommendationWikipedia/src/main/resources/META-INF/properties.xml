@@ -3,7 +3,7 @@
   <!-- 
   <property>
     <name>dt.application.{appName}.operator.{opName}.prop.{propName}</name>
-    
+
     <value>some-default-value (if value is not specified, it is required from the user or custom config when launching)</value>
   </property>
   -->
@@ -19,9 +19,9 @@
   </property>
   <property>
     <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
-    <value>input/</value>
-    <!--<value>/Data/</value>-->
-  </property>
+    <!--<value>input/</value>-->
+    <value>/Data/</value>
+  </property>   
     <property>
         <name>dt.application.MyFirstApplication.operator.readFile.prop.scanner.filePatternRegexp</name>
         <value>.*</value>

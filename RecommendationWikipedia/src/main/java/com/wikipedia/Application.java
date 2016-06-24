@@ -2,16 +2,12 @@
  * Put your copyright and license info here.
  */
 package com.wikipedia;
-
-import com.datatorrent.lib.algo.UniqueCounter;
-import org.apache.hadoop.conf.Configuration;
-
-import com.datatorrent.api.annotation.ApplicationAnnotation;
-import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.DAG;
-import com.datatorrent.api.DAG.Locality;
+import com.datatorrent.api.StreamingApplication;
+import com.datatorrent.api.annotation.ApplicationAnnotation;
+import com.datatorrent.lib.algo.UniqueCounter;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
-
+import org.apache.hadoop.conf.Configuration;
 @ApplicationAnnotation(name="WikipediaApplication")
 public class Application implements StreamingApplication
 {
@@ -23,6 +19,7 @@ public class Application implements StreamingApplication
 //    RandomNumberGenerator randomGenerator = dag.addOperator("randomGenerator", RandomNumberGenerator.class);
 //    randomGenerator.setNumTuples(500);
 //
+
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
       readFile.setNumTuples(1000);
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
