@@ -14,10 +14,10 @@ import java.util.Iterator;
  */
 public class CooccurrenceRow extends BaseOperator  {
     public  transient  final DefaultOutputPort<String> coOccures= new DefaultOutputPort<>();
-    public transient final DefaultInputPort<HashMap<Integer,RandomAccessSparseVector>> hashInput=new DefaultInputPort<HashMap<Integer, RandomAccessSparseVector>>() {
+    public transient final DefaultInputPort<HashMap<Integer,Vector>> hashInput=new DefaultInputPort<HashMap<Integer, Vector>>() {
 
         @Override
-        public void process(HashMap<Integer, RandomAccessSparseVector> tuple) {
+        public void process(HashMap<Integer, Vector> tuple) {
             int key=tuple.keySet().iterator().next();
             Iterable<Vector.Element> iterable = tuple.get(key).nonZeroes();
             Iterator<Vector.Element> it= iterable.iterator();
