@@ -5,8 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NumberClassification/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.68280259023916.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/5/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/5/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/CooccurrenceRow$1.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/CooccurrenceRow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/CooccurrenceRow.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/CooccurrenceRow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +79,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+            <state relative-caret-position="198">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -120,17 +147,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CooccurrenceRow.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CooccurrenceRow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -171,9 +198,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
       </list>
     </option>
   </component>
@@ -736,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466756390285</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Renaming">
+      <created>1466757934062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1466757934062</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +878,8 @@
     <MESSAGE value="tuple size 100" />
     <MESSAGE value="Modified Tuple Size and Data" />
     <MESSAGE value="swap&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="swap&#10;" />
+    <MESSAGE value="Renaming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renaming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1227,14 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
@@ -1247,14 +1274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -1278,6 +1297,22 @@
             <element signature="e#579#1365#0" expanded="true" />
             <element signature="e#1364#1365#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
