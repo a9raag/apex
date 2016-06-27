@@ -1,3 +1,4 @@
+com/wikipedia/RecommendationStart.class
 com/wikipedia/Test.class
 com/wikipedia/CooccurrenceRow.class
 com/wikipedia/RandomNumberGenerator.class
@@ -7,6 +8,6 @@ com/wikipedia/BuildRecommendation.class
 com/wikipedia/CooccurrenceRow$1.class
 com/wikipedia/RecommendationList$1.class
 com/wikipedia/RecommendationList.class
-com/wikipedia/WikipediaToItemPrefsMapper.class
 com/wikipedia/Application.class
+com/wikipedia/WikipediaToItemPrefsMapper.class
 com/wikipedia/BuildRecommendation$1.class

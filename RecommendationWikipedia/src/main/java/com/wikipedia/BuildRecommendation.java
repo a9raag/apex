@@ -5,6 +5,8 @@ import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
 import org.apache.hadoop.util.hash.Hash;
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
 import org.apache.mahout.cf.taste.model.PreferenceArray;
 import org.apache.mahout.math.RandomAccessSparseVector;
 import org.apache.mahout.math.Vector;
@@ -19,7 +21,7 @@ import java.util.regex.Pattern;
 /**
  * Created by anurag on 23/6/16.
  */
-public class BuildRecommendation extends BaseOperator {
+public class BuildRecommendation extends BaseOperator implements LoggerFactory {
     Vector R;
     List<HashMap<Integer,Vector>> userMaps;
     Integer cnt;
@@ -44,6 +46,7 @@ public class BuildRecommendation extends BaseOperator {
         public void process(HashMap<String,Integer> tuple) {
             HashMap<Integer,Vector> output=new HashMap<>();
             Iterator<String> keyIterator=tuple.keySet().iterator();
+            makeNewLoggerInstance("TUPLE:USERMAPS\t"+tuple.toString()+":->"+userMaps.toString()+"\n\n");
             while(keyIterator.hasNext()) {
                 String key=keyIterator.next();
                 Pattern pattern = Pattern.compile("(\\d+)");
@@ -63,6 +66,7 @@ public class BuildRecommendation extends BaseOperator {
                         Double rIndex = R.get(X);
                         Double uIndex = u.get(Y);
 //                        R[x] += U[y]*Cooccurrences
+
                         R.set(X, rIndex + uIndex * pref);
                         output.put(userID, R);
                     }
@@ -78,4 +82,10 @@ public class BuildRecommendation extends BaseOperator {
 
     };
 
+    @Override
+    public Logger makeNewLoggerInstance(String s) {
+        Logger log =Logger.getLogger(BuildRecommendation.class);
+        log.info(s);
+        return  log;
+    }
 }

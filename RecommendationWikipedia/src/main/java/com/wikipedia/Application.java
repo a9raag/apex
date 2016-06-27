@@ -21,16 +21,15 @@ public class Application implements StreamingApplication
 //
 
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
-      readFile.setNumTuples(1000);
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
       UniqueCounter<String> counter= dag.addOperator("Cooccurrences",new UniqueCounter<String>());
       ConsoleOutputOperator cons = dag.addOperator("console", new ConsoleOutputOperator());
       BuildRecommendation buildR= dag.addOperator("buildR",new BuildRecommendation());
-      dag.addStream("Read The File",readFile.output,cRow.hashInput);
+      dag.addStream("Read The File",readFile.output,cRow.hashInput).setLocality(DAG.Locality.CONTAINER_LOCAL);
       dag.addStream("UserVectos",readFile.vector,buildR.userVector);
-      dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data);
+      dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data).setLocality(DAG.Locality.CONTAINER_LOCAL);
       dag.addStream("BuildR from Cooccurrences",counter.count,buildR.xyInput);
-      dag.addStream("Proudce Cooccurrence Counter",buildR.Rout,cons.input);
+      dag.addStream("Proudce Cooccurrence Counter",buildR.Rout,cons.input).setLocality(DAG.Locality.CONTAINER_LOCAL);
 
 //    dag.addStream("randomData", randomGenerator.out, cons.input).setLocality(Locality.CONTAINER_LOCAL);
   }

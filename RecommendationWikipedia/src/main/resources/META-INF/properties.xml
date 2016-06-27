@@ -20,8 +20,8 @@
   <property>
     <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
     <value>input/</value>
-    <value>file:///home/anurag/Downloads/users.txt</value>
-  </property>   
+    <!--<value>file:///home/anurag/Downloads/users.txt</value>-->
+  </property>
     <property>
         <name>dt.application.MyFirstApplication.operator.readFile.prop.scanner.filePatternRegexp</name>
         <value>.*</value>
