@@ -20,7 +20,7 @@ public class Application implements StreamingApplication
 
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
-      MyCounter counter= dag.addOperator("Cooccurrences",new MyCounter());
+      RecommendationStart counter= dag.addOperator("Cooccurrences",new RecommendationStart());
       counter.setCumulative(true);
       WriteToFile writeToFile = dag.addOperator("FileWriter", new WriteToFile());
       BuildRecommendation buildR= dag.addOperator("buildR",new BuildRecommendation());

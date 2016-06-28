@@ -76,7 +76,7 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
         Integer userId = Integer.valueOf(m.group());
         Vector userVector = new RandomAccessSparseVector(Integer.MAX_VALUE, 100);
         while (m.find()) {
-            int pref = (int) (Math.random() * 10);
+            int pref = (int) (5);
             if (pref == 0)
                 pref += 1;
             userVector.set(Integer.parseInt(m.group()), pref);

@@ -43,7 +43,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
     public transient final DefaultInputPort<HashMap<String,Integer>> xyInput= new DefaultInputPort<HashMap<String, Integer>>() {
         @Override
         public void process(HashMap<String,Integer> tuple) {
-            makeNewLoggerInstance("xyIput");
+            makeNewLoggerInstance("xyIput: " + tuple);
             HashMap<Integer,Vector> output=new HashMap<>();
             Iterator<String> keyIterator=tuple.keySet().iterator();
             while(keyIterator.hasNext()) {
@@ -68,14 +68,12 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                         R.set(X, rIndex + uIndex * pref);
                         output.put(userID, R);
                     }
-                    Rout.emit(output.toString());
+
 
                 }
 
             }
-
-
-
+            Rout.emit(output.toString());
         }
 
 

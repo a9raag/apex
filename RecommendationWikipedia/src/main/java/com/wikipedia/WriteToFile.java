@@ -21,4 +21,10 @@ public class WriteToFile extends AbstractFileOutputOperator<String> {
     protected byte[] getBytesForTuple(String integerVectorHashMap) {
         return integerVectorHashMap.toString().getBytes();
     }
+
+    @Override
+    protected void processTuple(String tuple) {
+        super.processTuple(tuple);
+        System.out.println(tuple);
+    }
 }
