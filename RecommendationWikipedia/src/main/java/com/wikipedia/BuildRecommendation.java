@@ -4,11 +4,8 @@ import com.datatorrent.api.Context;
 import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
-import com.datatorrent.common.util.DefaultDelayOperator;
-import org.apache.hadoop.util.hash.Hash;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggerFactory;
-import org.apache.mahout.cf.taste.model.PreferenceArray;
 import org.apache.mahout.math.RandomAccessSparseVector;
 import org.apache.mahout.math.Vector;
 
@@ -25,7 +22,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
     List<HashMap<Integer,Vector>> userMaps;
     Integer cnt;
 
-    public transient  final DefaultOutputPort<HashMap<Integer,Vector>> Rout = new DefaultOutputPort<>();
+    public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
     @Override
     public void setup(Context.OperatorContext context) {
         R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
@@ -71,9 +68,10 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                         R.set(X, rIndex + uIndex * pref);
                         output.put(userID, R);
                     }
+                    Rout.emit(output.toString());
 
                 }
-                Rout.emit(output);
+
             }
 
 

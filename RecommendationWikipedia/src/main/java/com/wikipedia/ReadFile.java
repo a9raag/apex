@@ -58,7 +58,8 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
         String s = br.readLine();
         if(s == null) {
             toggle = true;
-            processedFiles.clear();
+            if(!prefRead)
+                processedFiles.clear();
         }
         return s;
     }

@@ -8,17 +8,17 @@ import java.util.HashMap;
 /**
  * Created by anurag on 28/6/16.
  */
-public class WriteToFile extends AbstractFileOutputOperator<HashMap<Integer,Vector>> {
+public class WriteToFile extends AbstractFileOutputOperator<String> {
     public WriteToFile(){
         filePath="output/";
     }
     @Override
-    protected String getFileName(HashMap<Integer, Vector> integerVectorHashMap) {
+    protected String getFileName(String integerVectorHashMap) {
         return "Recommendation.txt";
     }
 
     @Override
-    protected byte[] getBytesForTuple(HashMap<Integer, Vector> integerVectorHashMap) {
+    protected byte[] getBytesForTuple(String integerVectorHashMap) {
         return integerVectorHashMap.toString().getBytes();
     }
 }
