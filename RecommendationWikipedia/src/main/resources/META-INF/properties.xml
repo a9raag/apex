@@ -19,15 +19,15 @@
   </property>
   <property>
     <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
-    <value>input/</value>
-    <!--<value>file:///home/anurag/Downloads/users.txt</value>-->
+    <!--<value>input/</value>-->
+    <value>file:///home/anurag/Downloads/databy2.txt</value>
   </property>
     <property>
         <name>dt.application.MyFirstApplication.operator.readFile.prop.scanner.filePatternRegexp</name>
         <value>.*</value>
     </property>
   <property>
-    <name>dt.application.MyFirstApplication.operator.console.prop.stringFormat</name>
+    <name>dt.application.WikipediaApplication.operator.console.prop.stringFormat</name>
     <value>hello world: %s</value>
   </property>
 </configuration>

@@ -1,0 +1,6 @@
+<configuration>
+<property>
+  <name>dt.application.WikipediaApplication.operator.readFile.port.output.attr.BUFFER_MEMORY_MB</name>
+  <value>128</value>
+</property>
+</configuration>

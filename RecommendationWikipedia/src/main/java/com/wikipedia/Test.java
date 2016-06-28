@@ -41,6 +41,8 @@ public class Test {
 //            System.out.println(index1);
 
         }
+        Boolean b= true;
+        System.out.println(b);
         String s ="4189168:4987592=1";
         Pattern pattern = Pattern.compile("(\\d+)");
         m=pattern.matcher(s);

@@ -23,7 +23,7 @@ public class CooccurrenceRow extends BaseOperator implements LoggerFactory {
             int key=tuple.keySet().iterator().next();
             Iterable<Vector.Element> iterable = tuple.get(key).nonZeroes();
             Iterator<Vector.Element> it= iterable.iterator();
-//            makeNewLoggerInstance("CooccurrenceRow {}"+tuple.toString());
+
             while (it.hasNext()) {
                 Integer index1=it.next().index();
                 Iterable<Vector.Element> iterable1= tuple.get(key).nonZeroes();
@@ -31,6 +31,7 @@ public class CooccurrenceRow extends BaseOperator implements LoggerFactory {
                 while(it2.hasNext()){
                     Integer index2=it2.next().index();
                     coOccures.emit(index1.toString()+":"+index2.toString());
+//                    makeNewLoggerInstance("CooccurrenceRow {}"+index1.toString());
                     }
                }
             }

@@ -4,6 +4,7 @@ import com.datatorrent.api.Context;
 import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
+import com.datatorrent.common.util.DefaultDelayOperator;
 import org.apache.hadoop.util.hash.Hash;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggerFactory;
@@ -18,35 +19,36 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by anurag on 23/6/16.
- */
+
 public class BuildRecommendation extends BaseOperator implements LoggerFactory {
     Vector R;
     List<HashMap<Integer,Vector>> userMaps;
     Integer cnt;
+
     public transient  final DefaultOutputPort<HashMap<Integer,Vector>> Rout = new DefaultOutputPort<>();
     @Override
     public void setup(Context.OperatorContext context) {
         R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
         userMaps =new ArrayList<>();
+        cnt=new Integer(0);
         super.setup(context);
     }
 
-
-
+//    public transient  final DefaultOutputPort<Boolean> delayOutput=new DefaultOutputPort<>();
     public transient final DefaultInputPort<HashMap<Integer,Vector>> userVector = new DefaultInputPort<HashMap<Integer, Vector>>() {
         @Override
         public void process(HashMap<Integer, Vector> tuple) {
             userMaps.add(tuple);
+//            makeNewLoggerInstance("userVector");
+
         }
     };
     public transient final DefaultInputPort<HashMap<String,Integer>> xyInput= new DefaultInputPort<HashMap<String, Integer>>() {
         @Override
         public void process(HashMap<String,Integer> tuple) {
+            makeNewLoggerInstance("xyIput");
             HashMap<Integer,Vector> output=new HashMap<>();
             Iterator<String> keyIterator=tuple.keySet().iterator();
-            makeNewLoggerInstance("TUPLE:USERMAPS\t"+tuple.toString()+":->"+userMaps.toString()+"\n\n");
             while(keyIterator.hasNext()) {
                 String key=keyIterator.next();
                 Pattern pattern = Pattern.compile("(\\d+)");
@@ -66,15 +68,14 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                         Double rIndex = R.get(X);
                         Double uIndex = u.get(Y);
 //                        R[x] += U[y]*Cooccurrences
-
                         R.set(X, rIndex + uIndex * pref);
                         output.put(userID, R);
                     }
 
                 }
-
+                Rout.emit(output);
             }
-            Rout.emit(output);
+
 
 
         }

@@ -5,8 +5,6 @@ package com.wikipedia;
 import com.datatorrent.api.DAG;
 import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.annotation.ApplicationAnnotation;
-import com.datatorrent.lib.algo.UniqueCounter;
-import com.datatorrent.lib.io.ConsoleOutputOperator;
 import org.apache.hadoop.conf.Configuration;
 @ApplicationAnnotation(name="WikipediaApplication")
 public class Application implements StreamingApplication
@@ -21,9 +19,11 @@ public class Application implements StreamingApplication
 //
 
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
+      readFile.setEmitBatchSize(10);
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
-      UniqueCounter<String> counter= dag.addOperator("Cooccurrences",new UniqueCounter<String>());
-      ConsoleOutputOperator cons = dag.addOperator("console", new ConsoleOutputOperator());
+      MyCounter counter= dag.addOperator("Cooccurrences",new MyCounter());
+      counter.setCumulative(true);
+      WriteToFile cons = dag.addOperator("console", new WriteToFile());
       BuildRecommendation buildR= dag.addOperator("buildR",new BuildRecommendation());
       dag.addStream("Read The File",readFile.output,cRow.hashInput).setLocality(DAG.Locality.CONTAINER_LOCAL);
       dag.addStream("UserVectos",readFile.vector,buildR.userVector);
