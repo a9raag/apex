@@ -17,5 +17,5 @@ public class TopRecommendations extends BaseOperator {
         public void process(String tuple) {
            m =NUMBERS.matcher(tuple);
         }
-    }
+    };
 }

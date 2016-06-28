@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/MyConsole$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/MyConsole.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/Test.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/wikipedia/ApplicationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/wikipedia/ApplicationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
@@ -93,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopRecommendations.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TopRecommendations.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="342">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#410#558#0" expanded="true" />
@@ -193,10 +182,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" />
       </list>
     </option>
   </component>
@@ -1228,18 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#558#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
@@ -1268,6 +1245,18 @@
           <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#558#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
