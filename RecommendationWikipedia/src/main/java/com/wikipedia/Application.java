@@ -19,7 +19,6 @@ public class Application implements StreamingApplication
 //
 
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
-      readFile.setEmitBatchSize(10);
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
       MyCounter counter= dag.addOperator("Cooccurrences",new MyCounter());
       counter.setCumulative(true);
