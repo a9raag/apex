@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +33,8 @@
       <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+            <state relative-caret-position="558">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
               <folding>
                 <element signature="e#1511#3056#0" expanded="true" />
                 <element signature="e#3055#3056#0" expanded="true" />
@@ -44,11 +46,21 @@
       <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+            <state relative-caret-position="522">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CooccurrenceRow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopRecommendations.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopRecommendations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -119,31 +131,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/MyCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="60" selection-start-line="27" selection-start-column="58" selection-end-line="28" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="properties.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -177,15 +179,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadTwice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/MyConsole.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/MyCounter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
       </list>
     </option>
   </component>
@@ -403,7 +405,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.ApplicationTest.testApplication">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -690,8 +692,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ApplicationTest.testApplication" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ApplicationTest.testApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -762,27 +764,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 11h 58m 17s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 00m 57s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 02m 22s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 02m 50s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 06m 16s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 08m 28s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 09m 20s.xml">
-      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 10m 48s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
@@ -790,6 +771,27 @@
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 12h 20m 44s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 16m 52s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 21m 44s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 22m 10s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 22m 58s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 23m 13s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 23m 48s.xml">
+      <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testApplication - 2016.06.28 at 15h 26m 40s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1114,17 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="e#623#1495#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/apex/malhar-library/3.3.0-incubating/malhar-library-3.3.0-incubating.jar!/com/datatorrent/lib/algo/UniqueCounter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1144,14 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/MyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1164,14 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="28" column="60" selection-start-line="27" selection-start-column="58" selection-end-line="28" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1192,20 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1213,17 +1174,6 @@
           <folding>
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <element signature="e#1511#3056#0" expanded="true" />
-            <element signature="e#3055#3056#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1239,16 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/TopRecommendations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1258,6 +1198,65 @@
             <element signature="e#410#558#0" expanded="true" />
             <element signature="e#557#558#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="e#1511#3056#0" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

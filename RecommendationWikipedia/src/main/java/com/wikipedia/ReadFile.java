@@ -26,7 +26,7 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
     private transient BufferedReader br;
     Boolean prefRead = false;
     Boolean toggle = false;
-    Integer count ;
+    Integer count,fileReadCount ;
     @Override
     protected InputStream openFile(Path path) throws IOException {
         InputStream is= super.openFile(path);
@@ -36,7 +36,9 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
 
     @Override
     public void setup(Context.OperatorContext context) {
+
         super.setup(context);
+        fileReadCount=1;
     }
 
     @Override
@@ -58,7 +60,8 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
         String s = br.readLine();
         if(s == null) {
             toggle = true;
-            if(!prefRead)
+            fileReadCount++;
+            if(fileReadCount<=2)
                 processedFiles.clear();
         }
         return s;
