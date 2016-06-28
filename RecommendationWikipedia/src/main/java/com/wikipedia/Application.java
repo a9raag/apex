@@ -23,13 +23,13 @@ public class Application implements StreamingApplication
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
       MyCounter counter= dag.addOperator("Cooccurrences",new MyCounter());
       counter.setCumulative(true);
-      WriteToFile cons = dag.addOperator("console", new WriteToFile());
+      WriteToFile writeToFile = dag.addOperator("FileWriter", new WriteToFile());
       BuildRecommendation buildR= dag.addOperator("buildR",new BuildRecommendation());
-      dag.addStream("Read The File",readFile.output,cRow.hashInput).setLocality(DAG.Locality.CONTAINER_LOCAL);
-      dag.addStream("UserVectos",readFile.vector,buildR.userVector);
-      dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data).setLocality(DAG.Locality.CONTAINER_LOCAL);
+      dag.addStream("Read The File",readFile.output,cRow.hashInput);
+      dag.addStream("UserVectors",readFile.vector,buildR.userVector);
+      dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data);
       dag.addStream("BuildR from Cooccurrences",counter.count,buildR.xyInput);
-      dag.addStream("Proudce Cooccurrence Counter",buildR.Rout,cons.input).setLocality(DAG.Locality.CONTAINER_LOCAL);
+      dag.addStream("Update Recommendations",buildR.Rout,writeToFile.input);
 
 //    dag.addStream("randomData", randomGenerator.out, cons.input).setLocality(Locality.CONTAINER_LOCAL);
   }
