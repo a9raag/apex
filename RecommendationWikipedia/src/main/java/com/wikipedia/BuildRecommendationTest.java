@@ -15,26 +15,11 @@ import java.util.Iterator;
  * Created by anurag on 30/6/16.
  */
 public class BuildRecommendationTest extends BaseOperator implements LoggerFactory{
+    public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
     Vector R;
     Matrix userMatrix,Rmatrix;
     HashMap<Integer,RandomAccessSparseVector> userMaps;
     Integer numUsers;
-    public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
-    @Override
-    public void setup(Context.OperatorContext context) {
-
-        userMaps =new HashMap<>();
-        numUsers=new Integer(0);
-        userMatrix=new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
-        Rmatrix  = new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
-        super.setup(context);
-    }
-
-    @Override
-    public void beginWindow(long windowId) {
-        super.beginWindow(windowId);
-    }
-
     public transient final DefaultInputPort<HashMap<Integer,Vector>> userVector = new DefaultInputPort<HashMap<Integer, Vector>>() {
         @Override
         public void process(HashMap<Integer, Vector> tuple) {
@@ -63,10 +48,10 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
 
 
                 }
-                if(R!=null) {
+                if(R!=new RandomAccessSparseVector()) {
                     Rmatrix.assignRow(i, R);
                     makeNewLoggerInstance("User Id:" + i + " R\t" + Rmatrix.viewRow(i));
-                    Rout.emit("User Id:" + i + " R\t" + Rmatrix.viewRow(i) + "\n");
+                    Rout.emit("User Id:\t" + i + " R\t" + Rmatrix.viewRow(i) + "\n");
                 }
 
             }
@@ -74,6 +59,22 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
 
         }
     };
+
+    @Override
+    public void setup(Context.OperatorContext context) {
+
+        userMaps =new HashMap<>();
+        numUsers=new Integer(0);
+        userMatrix=new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
+        Rmatrix  = new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
+        super.setup(context);
+    }
+
+    @Override
+    public void beginWindow(long windowId) {
+        super.beginWindow(windowId);
+    }
+
     @Override
     public Logger makeNewLoggerInstance(String s) {
         Logger log = Logger.getLogger(BuildRecommendationTest.class);
