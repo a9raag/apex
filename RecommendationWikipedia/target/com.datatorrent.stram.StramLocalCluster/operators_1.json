@@ -1,5 +1,5 @@
-{"name":"Cooccurrences","id":3,"container":"container-0","startTime":1467113570349}
-{"name":"cooccurrenceRow","id":2,"container":"container-3","startTime":1467113570349}
-{"name":"readFile","id":1,"container":"container-4","startTime":1467113570350}
-{"name":"buildR","id":4,"container":"container-1","startTime":1467113570349}
-{"name":"FileWriter","id":5,"container":"container-2","startTime":1467113570349}
+{"name":"readFile","id":1,"container":"container-2","startTime":1467274494024}
+{"name":"buildR","id":4,"container":"container-1","startTime":1467274494025}
+{"name":"FileWriter","id":5,"container":"container-0","startTime":1467274494026}
+{"name":"cooccurrenceRow","id":2,"container":"container-3","startTime":1467274494025}
+{"name":"Cooccurrences","id":3,"container":"container-4","startTime":1467274494025}

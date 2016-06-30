@@ -31,7 +31,6 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
         super.setup(context);
     }
 
-//    public transient  final DefaultOutputPort<Boolean> delayOutput=new DefaultOutputPort<>();
     public transient final DefaultInputPort<HashMap<Integer,Vector>> userVector = new DefaultInputPort<HashMap<Integer, Vector>>() {
         @Override
         public void process(HashMap<Integer, Vector> tuple) {

@@ -3,7 +3,9 @@ package com.wikipedia;
 import org.apache.mahout.cf.taste.impl.recommender.ByValueRecommendedItemComparator;
 import org.apache.mahout.cf.taste.impl.recommender.GenericRecommendedItem;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
+import org.apache.mahout.math.Matrix;
 import org.apache.mahout.math.RandomAccessSparseVector;
+import org.apache.mahout.math.SparseMatrix;
 import org.apache.mahout.math.Vector;
 
 import java.util.*;
@@ -22,12 +24,14 @@ public class Test {
 
         Matcher m =NUMBERS.matcher(user);
         Vector recommendationVector= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
+        System.out.println(recommendationVector);
         while(m.find()){
             String [] v= m.group().split(":");
             recommendationVector.set(Integer.parseInt(v[0]),Double.parseDouble(v[1]));
         }
+
         Integer recommendationsPerUser=10;
-        HashMap<Integer,Vector> map= new HashMap<>();
+        HashMap<Integer,RandomAccessSparseVector> map= new HashMap<>();
         Queue<RecommendedItem> topItems =new PriorityQueue<>(recommendationsPerUser,Collections.<RecommendedItem>reverseOrder(ByValueRecommendedItemComparator.getInstance()));
         Iterator<Vector.Element> recommendationVectorIterator =
                 recommendationVector.nonZeroes().iterator();
@@ -44,12 +48,16 @@ public class Test {
                 topItems.poll();
             }
         }
+        map.put(723, (RandomAccessSparseVector) recommendationVector);
+        Matrix matrix =new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
+        matrix.assignRow(723,recommendationVector);
+        System.out.println(matrix.get(723,104440));
         List<RecommendedItem> recommendations =
                 new ArrayList<RecommendedItem>(topItems.size());
         recommendations.addAll(topItems);
         Collections.sort(recommendations,
                 ByValueRecommendedItemComparator.getInstance());
-        System.out.println(recommendations);
+//        System.out.println(recommendations);
 
     }
 }
