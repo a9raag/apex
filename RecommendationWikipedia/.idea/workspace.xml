@@ -4,100 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/resources" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/myy.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467107673277.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467107749768.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467112696629.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113243574.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113331340.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113525144.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113576081.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467180176238.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467184347031.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467184474333.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467184538992.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467186829093.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467186983307.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187455330.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187576684.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187603351.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187635733.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189397359.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189470182.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189577533.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189629963.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189660176.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190150773.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190350073.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190379765.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190413848.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467191739616.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467191900656.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467192180797.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467192194707.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467192924430.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197138615.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197265204.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197316224.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197774016.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197816068.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197849150.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467198002538.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467198118569.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467198266758.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201007679.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201059062.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201146673.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201516454.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201815771.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201886370.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467262252695.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467263185191.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467263434796.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467264880681.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265208686.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265512249.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265738642.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265979083.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267110829.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267220662.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267350534.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267948327.tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Data/myy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/myy.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/links.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.34758676262720.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/._tmp.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/ffffffffffffffff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/._tmp.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/ffffffffffffffff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/._tmp.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/ffffffffffffffff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/5/._tmp.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/5/ffffffffffffffff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/links.txt" afterPath="$PROJECT_DIR$/src/main/resources/Data/links.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/wikipedia/ApplicationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/wikipedia/ApplicationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/links.txt" afterPath="$PROJECT_DIR$/target/classes/Data/links.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-    </list>
+    <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="" />
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -149,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="250">
+              <caret line="25" column="57" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -201,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="510">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
@@ -1256,22 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/myy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1300,8 +1191,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="510">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="57" />
           <folding />
         </state>
       </provider>
