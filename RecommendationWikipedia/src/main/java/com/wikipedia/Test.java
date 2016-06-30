@@ -24,7 +24,7 @@ public class Test {
 
         Matcher m =NUMBERS.matcher(user);
         Vector recommendationVector= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
-        System.out.println(recommendationVector);
+//        System.out.println(recommendationVector);
         while(m.find()){
             String [] v= m.group().split(":");
             recommendationVector.set(Integer.parseInt(v[0]),Double.parseDouble(v[1]));
@@ -51,13 +51,19 @@ public class Test {
         map.put(723, (RandomAccessSparseVector) recommendationVector);
         Matrix matrix =new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
         matrix.assignRow(723,recommendationVector);
-        System.out.println(matrix.get(723,104440));
+//        System.out.println(matrix.get(723,104440));
         List<RecommendedItem> recommendations =
                 new ArrayList<RecommendedItem>(topItems.size());
         recommendations.addAll(topItems);
         Collections.sort(recommendations,
                 ByValueRecommendedItemComparator.getInstance());
 //        System.out.println(recommendations);
+        Random rand= new Random(1);
+
+        for(int i=0;i<100;i++){
+            int randomNum = rand.nextInt((10 - 1) + 1) + 1;
+            System.out.print(randomNum+"\t");
+        }
 
     }
 }

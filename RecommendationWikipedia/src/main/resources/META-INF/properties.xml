@@ -19,9 +19,11 @@
   </property>
   <property>
     <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
-    <value>input/</value>
-    <!--<value>/home/anurag/apex-all/RecommendationWikipedia/src/main/resources/Data/links.txt</value>-->
+    <!--<value>input/</value>-->
+    <!--<value>file:///home/anurag/Downloads/buildRTest.txt</value>-->
+    <value>file:///home/anurag/apex-all/RecommendationWikipedia/src/main/resources/Data/links.txt</value>
   </property>
+
     <property>
         <name>dt.application.MyFirstApplication.operator.readFile.prop.scanner.filePatternRegexp</name>
         <value>.*</value>

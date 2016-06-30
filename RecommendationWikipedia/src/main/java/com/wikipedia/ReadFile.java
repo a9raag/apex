@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -28,6 +29,10 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
     Boolean prefRead = false;
     Boolean toggle = false;
     Integer count,fileReadCount ;
+    Vector userVector;
+    Random rand= new Random(1);
+    HashMap<Integer, Vector> map = new HashMap<>();
+
     @Override
     protected InputStream openFile(Path path) throws IOException {
         InputStream is= super.openFile(path);
@@ -70,16 +75,15 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
     @Override
     protected void emit(String s) {
 
+        map.clear();
         Pattern Numbers = Pattern.compile("(\\d+)");
         Matcher m = Numbers.matcher(s);
-        HashMap<Integer, Vector> map = new HashMap<>();
+
         m.find();
         Integer userId = Integer.valueOf(m.group());
-        Vector userVector = new RandomAccessSparseVector(Integer.MAX_VALUE, 100);
+        userVector = new RandomAccessSparseVector(Integer.MAX_VALUE, 100);
         while (m.find()) {
-            int pref = (int) (RandomUtils.nextInt());
-            if (pref == 0)
-                pref += 1;
+            int pref = rand.nextInt((10 - 1) + 1) + 1;
             userVector.set(Integer.parseInt(m.group()), pref);
         }
         map.put(userId, userVector);
