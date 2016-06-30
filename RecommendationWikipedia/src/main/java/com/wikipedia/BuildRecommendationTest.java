@@ -19,7 +19,6 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
     Matrix userMatrix,Rmatrix;
     HashMap<Integer,RandomAccessSparseVector> userMaps;
     Integer numUsers;
-
     public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
     @Override
     public void setup(Context.OperatorContext context) {
@@ -66,7 +65,7 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
                 }
                 Rmatrix.assignRow(i,R);
                 makeNewLoggerInstance("User Id:"+i+" R\t"+Rmatrix.viewRow(i));
-
+                Rout.emit("User Id:"+i+" R\t"+Rmatrix.viewRow(i)+"\n");
 
 
             }
