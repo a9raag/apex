@@ -63,10 +63,11 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
 
 
                 }
-                Rmatrix.assignRow(i,R);
-                makeNewLoggerInstance("User Id:"+i+" R\t"+Rmatrix.viewRow(i));
-                Rout.emit("User Id:"+i+" R\t"+Rmatrix.viewRow(i)+"\n");
-
+                if(R!=null) {
+                    Rmatrix.assignRow(i, R);
+                    makeNewLoggerInstance("User Id:" + i + " R\t" + Rmatrix.viewRow(i));
+                    Rout.emit("User Id:" + i + " R\t" + Rmatrix.viewRow(i) + "\n");
+                }
 
             }
 
