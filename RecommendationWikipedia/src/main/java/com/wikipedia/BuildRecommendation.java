@@ -87,12 +87,13 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                 makeNewLoggerInstance("single user map" + userMap);
                 Iterator<Integer> userIds = userMap.keySet().iterator();
                 while(userIds.hasNext()){
+                    R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
                     Integer uid=userIds.next();
                     Vector itemPref=userMap.get(uid);
                     makeNewLoggerInstance("userd ids " + uid);
-
-                    for(int i=1;i<=3;i++){
-                        int answer=0;
+                    Double finalans=0.0;
+                    for(int i=1;i<=4;i++){
+                        Double answer=0.0;
                         ArrayList<String> b = getCoCount(i,tuple);
                         for (int j=0;j<b.size();j++) {
                             String x[] = b.get(j).split(" ");
@@ -100,16 +101,14 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                             double pref = itemPref.get(Integer.parseInt(x[1]));
                             answer += pref * Double.parseDouble(x[0]);
                         }
-                       makeNewLoggerInstance("Answer :"+ i+" "+answer);
+                       makeNewLoggerInstance("Answer :"+uid + "::" + i+" "+answer);
                         R.set(i,answer);
                         output.put(uid,R);
                     }
-
-
+                    Rout.emit(output.toString());
                 }
             }
 
-            Rout.emit(output.toString());
         }
 
 
