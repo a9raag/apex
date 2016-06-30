@@ -4,32 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/resources" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.25674704576356.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.98063418415931.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.99786569281742.crc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Data/links.txt" afterPath="$PROJECT_DIR$/src/main/resources/Data/links.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/links.txt" afterPath="$PROJECT_DIR$/target/classes/Data/links.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    </list>
+    <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="" />
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
