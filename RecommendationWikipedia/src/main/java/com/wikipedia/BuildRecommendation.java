@@ -5,6 +5,7 @@ import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
 import com.datatorrent.common.util.NumberAggregate;
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggerFactory;
 import org.apache.mahout.math.RandomAccessSparseVector;
@@ -34,7 +35,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
         super.setup(context);
     }
 
-//    public transient  final DefaultOutputPort<Boolean> delayOutput=new DefaultOutputPort<>();
+    //    public transient  final DefaultOutputPort<Boolean> delayOutput=new DefaultOutputPort<>();
     public transient final DefaultInputPort<HashMap<Integer,Vector>> userVector = new DefaultInputPort<HashMap<Integer, Vector>>() {
         @Override
         public void process(HashMap<Integer, Vector> tuple) {
@@ -46,54 +47,43 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
     public transient final DefaultInputPort<HashMap<String,Integer>> xyInput= new DefaultInputPort<HashMap<String, Integer>>() {
         @Override
         public void process(HashMap<String,Integer> tuple) {
-           // makeNewLoggerInstance("xyIput: " + tuple);
-           // getCoCount(Yindex,tuple);
             makeNewLoggerInstance("usermaps " + userMaps);
             HashMap<Integer,Vector> output=new HashMap<>();
-            Iterator<String> keyIterator=tuple.keySet().iterator();
+            Iterator<HashMap<Integer,Vector>> userIterator1=userMaps.iterator();
+            int s1=0;
+            while(userIterator1.hasNext()) {
+                HashMap<Integer, Vector> userMap = userIterator1.next();
 
-            while(keyIterator.hasNext()) {
-                String key=keyIterator.next();
-                Pattern pattern = Pattern.compile("(\\d+)");
-                Matcher m = pattern.matcher(key);
-                m.find();
-                Integer X = Integer.parseInt(m.group());
-                m.find();
-                Integer Y = Integer.parseInt(m.group());
-                Integer co_count = tuple.get(key);
+                makeNewLoggerInstance("single user map" + userMap);
+                Iterator<Integer> userIds = userMap.keySet().iterator();
 
-               // makeNewLoggerInstance("co_count X Y " + co_count +" "+X +" "+Y);
-               //Iterator<HashMap<Integer,Vector>> userIterator=userMaps.iterator();
-            /*    while(userIterator.hasNext()) {
-                    HashMap<Integer,Vector> userMap=userIterator.next();
-                    //makeNewLoggerInstance("single user map" + userMap);
-                    Iterator<Integer> userIds=userMap.keySet().iterator();
-                    while(userIds.hasNext()) {
-                        Integer userID = userIds.next();
-                        Vector u = userMap.get(userID);
-                        Double rIndex = R.get(X);
-                        Double uIndex = u.get(Y);
-                        makeNewLoggerInstance("uIndex" + uIndex);
-                       R[x] += U[y]*Cooccurrences
-                        R.set(X, rIndex + uIndex * co_count);
-                        output.put(userID, R);
-                    }
-                }*/
+                while (userIds.hasNext()) {
+                    Integer uid = userIds.next();
+                    Vector itemPref = userMap.get(uid);
+                    Iterator<Vector.Element> i1=itemPref.nonZeroes().iterator();
+                    int k=i1.next().index();
+                    System.out.println(k+"::"+itemPref.nonZeroes().iterator().next().toString());
+                    if (s1<k)
+                        s1=k+1;
+
+                }
+                makeNewLoggerInstance("add s1 "+s1);
             }
 
             Iterator<HashMap<Integer,Vector>> userIterator=userMaps.iterator();
+
             while(userIterator.hasNext()) {
                 HashMap<Integer, Vector> userMap = userIterator.next();
+
                 makeNewLoggerInstance("single user map" + userMap);
                 Iterator<Integer> userIds = userMap.keySet().iterator();
                 while(userIds.hasNext()){
                     R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
                     Integer uid=userIds.next();
                     Vector itemPref=userMap.get(uid);
-                    makeNewLoggerInstance("userd ids " + uid);
+                    makeNewLoggerInstance("max index"+itemPref.maxValueIndex());
                     Double finalans=0.0;
-
-                    for(int i=1;i<=itemPref.maxValueIndex();i++){
+                    for(int i=1;i<=s1;i++){
                         Double answer=0.0;
                         ArrayList<String> b = getCoCount(i,tuple);
                         for (int j=0;j<b.size();j++) {
@@ -102,7 +92,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                             double pref = itemPref.get(Integer.parseInt(x[1]));
                             answer += pref * Double.parseDouble(x[0]);
                         }
-                       makeNewLoggerInstance("Answer :"+uid + "::" + i+" "+answer);
+                        makeNewLoggerInstance("Answer :"+uid + "::" + i+" "+answer);
                         R.set(i,answer);
                         output.put(uid,R);
                     }
@@ -120,7 +110,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
 
         ArrayList<String> a = new ArrayList<>();
         Iterator<String> keyIterator = tuple.keySet().iterator();
-       // makeNewLoggerInstance("tuple :" +tuple);
+        // makeNewLoggerInstance("tuple :" +tuple);
         while (keyIterator.hasNext()) {
             String key = keyIterator.next();
             Pattern pattern = Pattern.compile("(\\d+)");

@@ -19,7 +19,7 @@
   </property>
   <property>
     <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
-    <!--<value>input/</value>-->
+   <!-- <value>input/</value>-->
     <value>file:///home/harsh/Documents/apex/RecommendationWikipedia/src/main/resources/Data</value>
   </property>
     <property>

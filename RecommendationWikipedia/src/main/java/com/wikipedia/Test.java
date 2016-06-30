@@ -1,5 +1,6 @@
 package com.wikipedia;
 
+import org.apache.commons.collections.list.TreeList;
 import org.apache.mahout.cf.taste.impl.recommender.ByValueRecommendedItemComparator;
 import org.apache.mahout.cf.taste.impl.recommender.GenericRecommendedItem;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
@@ -26,6 +27,14 @@ public class Test {
             String [] v= m.group().split(":");
             recommendationVector.set(Integer.parseInt(v[0]),Double.parseDouble(v[1]));
         }
+        Iterator<Vector.Element> test= recommendationVector.nonZeroes().iterator();
+        List<Integer> l =new TreeList();
+        while(test.hasNext()){
+
+            l.add(test.next().index());
+        }
+
+
         Integer recommendationsPerUser=10;
         HashMap<Integer,Vector> map= new HashMap<>();
         Queue<RecommendedItem> topItems =new PriorityQueue<>(recommendationsPerUser,Collections.<RecommendedItem>reverseOrder(ByValueRecommendedItemComparator.getInstance()));
@@ -49,7 +58,7 @@ public class Test {
         recommendations.addAll(topItems);
         Collections.sort(recommendations,
                 ByValueRecommendedItemComparator.getInstance());
-        System.out.println(recommendations);
+//        System.out.println(recommendations);
 
     }
 }
