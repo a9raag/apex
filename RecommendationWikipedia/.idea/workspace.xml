@@ -5,8 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/myy.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467107673277.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467107749768.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467112696629.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113243574.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113331340.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113525144.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467113576081.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467180176238.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467184347031.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467184474333.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467184538992.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467186829093.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467186983307.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187455330.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187576684.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187603351.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467187635733.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189397359.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189470182.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189577533.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189629963.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467189660176.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190150773.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190350073.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190379765.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467190413848.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467191739616.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467191900656.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467192180797.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467192194707.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467192924430.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197138615.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197265204.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197316224.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197774016.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197816068.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467197849150.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467198002538.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467198118569.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467198266758.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201007679.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201059062.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201146673.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201516454.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201815771.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467201886370.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467262252695.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467263185191.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467263434796.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467264880681.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265208686.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265512249.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265738642.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467265979083.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267110829.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267220662.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267350534.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/output/Recommendation.txt.1467267948327.tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/Data/myy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Data/myy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.34758676262720.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/2/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/3/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/4/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/5/._tmp.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/5/ffffffffffffffff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/links.txt" afterPath="$PROJECT_DIR$/src/main/resources/Data/links.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/wikipedia/ApplicationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/wikipedia/ApplicationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/links.txt" afterPath="$PROJECT_DIR$/target/classes/Data/links.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +119,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+            <state relative-caret-position="250">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WriteToFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myy.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/myy.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,39 +164,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#623#1495#0" expanded="false" />
-                <element signature="e#1494#1495#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/MyCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomNumberGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/RandomNumberGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#506#514#0" expanded="false" />
-                <element signature="e#742#743#0" expanded="false" />
-                <element signature="e#768#769#0" expanded="false" />
-                <element signature="e#925#926#0" expanded="false" />
-                <element signature="e#961#962#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -84,12 +172,9 @@
       <file leaf-file-name="ApplicationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,39 +182,11 @@
       <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+            <state relative-caret-position="93">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecommendationList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/RecommendationList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#624#625#0" expanded="false" />
-                <element signature="e#666#667#0" expanded="false" />
-                <element signature="e#725#726#0" expanded="false" />
-                <element signature="e#765#766#0" expanded="false" />
-                <element signature="e#830#831#0" expanded="false" />
-                <element signature="e#865#866#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="links.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/links.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -144,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="properties.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+            <state relative-caret-position="226">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,6 +222,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$/.." source="harsh" target-remote="origin" target-branch="harsh" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -188,10 +248,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Data/links.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/myy.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/links.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
       </list>
     </option>
   </component>
@@ -428,11 +489,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/site/Data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ApplicationTest.testApplication">
@@ -753,44 +816,51 @@
       <option name="project" value="LOCAL" />
       <updated>1466767828034</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done">
+      <created>1467272692958</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1467272692958</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 04m 44s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 12h 31m 15s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 10m 12s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 13h 50m 22s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 15m 15s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 13h 50m 52s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 19m 02s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 13h 55m 20s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 22m 34s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 13h 56m 37s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 23m 02s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 13h 58m 21s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 41m 54s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 14h 02m 20s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 43m 44s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 14h 03m 00s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 45m 54s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 14h 08m 17s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 55m 51s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 14h 11m 19s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1303" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -799,10 +869,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.79582715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53800297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20337683" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20107444" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -837,7 +907,8 @@
     <MESSAGE value="swap&#10;" />
     <MESSAGE value="Renaming" />
     <MESSAGE value="Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,13 +921,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/RandomNumberGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -926,7 +990,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/links.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/links.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
@@ -1120,49 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#623#1495#0" expanded="false" />
-            <element signature="e#1494#1495#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/MyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1183,16 +1204,6 @@
             <element signature="e#768#769#0" expanded="false" />
             <element signature="e#925#926#0" expanded="false" />
             <element signature="e#961#962#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1223,19 +1234,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wikipedia/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/CooccurrenceRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+        <state relative-caret-position="250">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/WriteToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/myy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/properties.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>

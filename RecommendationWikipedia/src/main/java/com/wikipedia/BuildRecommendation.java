@@ -92,7 +92,8 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                     Vector itemPref=userMap.get(uid);
                     makeNewLoggerInstance("userd ids " + uid);
                     Double finalans=0.0;
-                    for(int i=1;i<=4;i++){
+
+                    for(int i=1;i<=itemPref.maxValueIndex();i++){
                         Double answer=0.0;
                         ArrayList<String> b = getCoCount(i,tuple);
                         for (int j=0;j<b.size();j++) {
@@ -105,10 +106,11 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                         R.set(i,answer);
                         output.put(uid,R);
                     }
-                    Rout.emit(output.toString());
-                }
-            }
 
+                }
+
+            }
+            Rout.emit(output.toString());
         }
 
 
