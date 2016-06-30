@@ -3,6 +3,7 @@ package com.wikipedia;
 import com.datatorrent.api.Context;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.lib.io.fs.AbstractFileInputOperator;
+import org.apache.commons.lang.math.RandomUtils;
 import org.apache.hadoop.fs.Path;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggerFactory;
@@ -76,7 +77,7 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
         Integer userId = Integer.valueOf(m.group());
         Vector userVector = new RandomAccessSparseVector(Integer.MAX_VALUE, 100);
         while (m.find()) {
-            int pref = (int) (5);
+            int pref = (int) (RandomUtils.nextInt());
             if (pref == 0)
                 pref += 1;
             userVector.set(Integer.parseInt(m.group()), pref);

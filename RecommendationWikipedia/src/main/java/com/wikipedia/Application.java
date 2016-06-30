@@ -6,6 +6,11 @@ import com.datatorrent.api.DAG;
 import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.annotation.ApplicationAnnotation;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.mahout.common.RandomUtils;
+
+import java.util.Random;
+import java.util.RandomAccess;
+
 @ApplicationAnnotation(name="WikipediaApplication")
 public class Application implements StreamingApplication
 {
@@ -13,11 +18,7 @@ public class Application implements StreamingApplication
   @Override
   public void populateDAG(DAG dag, Configuration conf)
   {
-
-//    RandomNumberGenerator randomGenerator = dag.addOperator("randomGenerator", RandomNumberGenerator.class);
-//    randomGenerator.setNumTuples(500);
-//
-
+      RandomUtils.useTestSeed();
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
       RecommendationStart counter= dag.addOperator("Cooccurrences",new RecommendationStart());
