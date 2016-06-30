@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cca4285-2c98-4195-9d21-98a75ced3e7a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.meta.json.25674704576356.crc" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/Data/links.txt" afterPath="$PROJECT_DIR$/src/main/resources/links.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$1.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" afterPath="$PROJECT_DIR$/target/classes/com/wikipedia/BuildRecommendation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.containers_1.json.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/.operators_1.json.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/._tmp.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/checkpoints/1/ffffffffffffffff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.apa" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/recommender-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" afterPath="$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Data/links.txt" afterPath="$PROJECT_DIR$/target/classes/Data/links.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/classes/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/containers_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/meta.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" afterPath="$PROJECT_DIR$/target/com.datatorrent.stram.StramLocalCluster/operators_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" afterPath="$PROJECT_DIR$/target/generated-resources/xml-javadoc/recommender-1.0-SNAPSHOT-javadoc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="WikipediaRecommendation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,12 +32,9 @@
       <file leaf-file-name="BuildRecommendation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-379">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-              <folding>
-                <element signature="e#1656#4688#0" expanded="true" />
-                <element signature="e#4687#4688#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,7 +44,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#623#1495#0" expanded="false" />
+                <element signature="e#1494#1495#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +69,13 @@
             <state relative-caret-position="240">
               <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#506#514#0" expanded="false" />
+                <element signature="e#742#743#0" expanded="false" />
+                <element signature="e#768#769#0" expanded="false" />
+                <element signature="e#925#926#0" expanded="false" />
+                <element signature="e#961#962#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -104,7 +86,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +97,7 @@
       <file leaf-file-name="ReadFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="915">
               <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,7 +111,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#624#625#0" expanded="false" />
+                <element signature="e#666#667#0" expanded="false" />
+                <element signature="e#725#726#0" expanded="false" />
+                <element signature="e#765#766#0" expanded="false" />
+                <element signature="e#830#831#0" expanded="false" />
+                <element signature="e#865#866#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,9 +209,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="63" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1303" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -246,6 +239,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -424,8 +419,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -764,39 +757,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 16h 32m 58s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 04m 44s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 16h 44m 52s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 10m 12s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 20m 32s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 15m 15s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 21m 02s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 19m 02s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 22m 30s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 22m 34s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 27m 53s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 23m 02s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 28m 39s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 41m 54s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 33m 39s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 43m 44s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 34m 49s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 45m 54s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationTest_testApplication - 2016.06.29 at 17h 35m 56s.xml">
+    <history-entry file="ApplicationTest_testApplication - 2016.06.30 at 11h 55m 51s.xml">
       <configuration name="ApplicationTest.testApplication" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="24" width="1303" height="744" extended-state="6" />
+    <frame x="63" y="-4" width="1303" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -806,7 +799,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51415795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.79582715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20337683" sideWeight="0.4848485" order="0" side_tool="false" content_ui="combo" />
@@ -1162,7 +1155,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#623#1495#0" expanded="false" />
+            <element signature="e#1494#1495#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,15 +1176,20 @@
         <state relative-caret-position="240">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#506#514#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+            <element signature="e#925#926#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="915">
           <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1199,7 +1201,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#725#726#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#830#831#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,18 +1225,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wikipedia/BuildRecommendation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding>
-            <element signature="e#1656#4688#0" expanded="true" />
-            <element signature="e#4687#4688#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

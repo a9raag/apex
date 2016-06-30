@@ -90,18 +90,21 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                     Integer uid=userIds.next();
                     Vector itemPref=userMap.get(uid);
                     makeNewLoggerInstance("userd ids " + uid);
-                    int answer=0;
-                    for(int i=1;i<=3;i++){
-                        ArrayList<String>b = getCoCount(i,tuple);
 
-                        String x[] = b.get(i-1).split(" ");
-                        makeNewLoggerInstance("split : C"+ x[0]+" X "+x[1]);
-                        double pref= itemPref.get(Integer.parseInt(x[1]));
-                        answer+=pref* Double.parseDouble(x[0]);
-                        makeNewLoggerInstance("Answer :"+ i+" "+answer);
+                    for(int i=1;i<=3;i++){
+                        int answer=0;
+                        ArrayList<String> b = getCoCount(i,tuple);
+                        for (int j=0;j<b.size();j++) {
+                            String x[] = b.get(j).split(" ");
+                            makeNewLoggerInstance("split : C" + x[0] + " X" + x[1] + " Y" + x[2]);
+                            double pref = itemPref.get(Integer.parseInt(x[1]));
+                            answer += pref * Double.parseDouble(x[0]);
+                        }
+                       makeNewLoggerInstance("Answer :"+ i+" "+answer);
+                        R.set(i,answer);
+                        output.put(uid,R);
                     }
 
-                    makeNewLoggerInstance("Answer :"+ answer);
 
                 }
             }
@@ -116,6 +119,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
 
         ArrayList<String> a = new ArrayList<>();
         Iterator<String> keyIterator = tuple.keySet().iterator();
+       // makeNewLoggerInstance("tuple :" +tuple);
         while (keyIterator.hasNext()) {
             String key = keyIterator.next();
             Pattern pattern = Pattern.compile("(\\d+)");
@@ -125,11 +129,12 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
             m.find();
             Integer Y = Integer.parseInt(m.group());
             Integer co_count = tuple.get(key);
-            //makeNewLoggerInstance("co count" +co_count);
+            //makeNewLoggerInstance("Y ::" +Y+ " X ::"+X);
             if (Y.intValue() == Yindex)
-                a.add(""+co_count+" "+X);
+                a.add(""+co_count+" "+X +" "+Y);
 
         }
+        makeNewLoggerInstance("for "+Yindex+"= :" +a);
         return a;
     }
     @Override
