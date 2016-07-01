@@ -19,15 +19,21 @@ public class Application implements StreamingApplication
 //
 
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
-      CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
-      RecommendationStart counter= dag.addOperator("Cooccurrences",new RecommendationStart());
+      CreateItemPair itemPair=dag.addOperator("cooccurrenceRow",new CreateItemPair());
+      RecommendationCounter counter= dag.addOperator("Cooccurrences",new RecommendationCounter());
       counter.setCumulative(true);
       WriteToFile writeToFile = dag.addOperator("FileWriter", new WriteToFile());
       BuildRecommendation buildR= dag.addOperator("buildR",new BuildRecommendation());
-      dag.addStream("Read The File",readFile.output,cRow.hashInput);
+
+
+//1
+      dag.addStream("Read The File",readFile.output,itemPair.hashInput);
       dag.addStream("UserVectors",readFile.vector,buildR.userVector);
-      dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data);
-      dag.addStream("BuildR from Cooccurrences",counter.count,buildR.xyInput);
+//2
+      dag.addStream("Produce Cooccurrence",itemPair.coOccures,counter.data);
+//3
+      dag.addStream("BuildR from Cooccurrences",counter.count,buildR.xyInput).setLocality(DAG.Locality.THREAD_LOCAL);
+//4
       dag.addStream("Update Recommendations",buildR.Rout,writeToFile.input);
 
 //    dag.addStream("randomData", randomGenerator.out, cons.input).setLocality(Locality.CONTAINER_LOCAL);

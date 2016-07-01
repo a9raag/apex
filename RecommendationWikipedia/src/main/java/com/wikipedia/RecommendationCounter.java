@@ -5,7 +5,7 @@ import com.datatorrent.lib.algo.UniqueCounter;
 /**
  * Created by anurag on 27/6/16.
  */
-public class RecommendationStart extends UniqueCounter<String> {
+public class RecommendationCounter extends UniqueCounter<String> {
 
     private boolean change = false;
 

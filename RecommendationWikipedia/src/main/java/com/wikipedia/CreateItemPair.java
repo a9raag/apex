@@ -14,7 +14,7 @@ import java.util.Iterator;
 /**
  * Created by anurag on 21/6/16.
  */
-public class CooccurrenceRow extends BaseOperator implements LoggerFactory {
+public class CreateItemPair extends BaseOperator implements LoggerFactory {
     public  transient  final DefaultOutputPort<String> coOccures= new DefaultOutputPort<>();
     public transient final DefaultInputPort<HashMap<Integer,Vector>> hashInput=new DefaultInputPort<HashMap<Integer, Vector>>() {
 
@@ -31,7 +31,7 @@ public class CooccurrenceRow extends BaseOperator implements LoggerFactory {
                 while(it2.hasNext()){
                     Integer index2=it2.next().index();
                     coOccures.emit(index1.toString()+":"+index2.toString());
-//                    makeNewLoggerInstance("CooccurrenceRow {}"+index1.toString());
+//                    makeNewLoggerInstance("CreateItemPair {}"+index1.toString());
                     }
                }
             }
@@ -42,7 +42,7 @@ public class CooccurrenceRow extends BaseOperator implements LoggerFactory {
 
     @Override
     public Logger makeNewLoggerInstance(String s) {
-        Logger log = Logger.getLogger(CooccurrenceRow.class);
+        Logger log = Logger.getLogger(CreateItemPair.class);
         log.info(s);
         return log;
     }
