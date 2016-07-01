@@ -20,11 +20,12 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
     Matrix userMatrix,Rmatrix;
     HashMap<Integer,RandomAccessSparseVector> userMaps;
     Integer numUsers;
-    public transient final DefaultInputPort<HashMap<Integer,Vector>> userVector = new DefaultInputPort<HashMap<Integer, Vector>>() {
+    public transient final DefaultInputPort<Entry> userVector = new DefaultInputPort<Entry>() {
         @Override
-        public void process(HashMap<Integer, Vector> tuple) {
-            Integer key=tuple.keySet().iterator().next();
-            userMatrix.assignRow(key,tuple.get(key));
+        public void process(Entry tuple) {
+            Integer key=tuple.getUid();
+            System.out.println("Assigning: " + tuple.getV());
+            userMatrix.assignRow(key,tuple.getV());
             numUsers++;
         }
     };
@@ -33,6 +34,7 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
         public void process(HashMap<String, Integer> tuple) {
 
             for(int i=1;i<=numUsers;i++){
+                System.out.println("Processing user: " + i + " time: " + System.currentTimeMillis());
                 Vector v=userMatrix.viewRow(i);
                 Iterator<String> keys=tuple.keySet().iterator();
                 R= Rmatrix.viewRow(i);
@@ -43,15 +45,13 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
                     Integer X= Integer.valueOf(xy[0]);
                     Integer Y= Integer.valueOf(xy[1]);
                     R.set(X,R.get(X)+v.get(Y)*coCount);
-
-                    Rmatrix.assignRow(i,R);
-
+//                    Rmatrix.assignRow(i,R);
 
                 }
-                if(R!=new RandomAccessSparseVector()) {
+                if(R.size() != 0) {
                     Rmatrix.assignRow(i, R);
-                    makeNewLoggerInstance("User Id:" + i + " R\t" + Rmatrix.viewRow(i));
-                    Rout.emit("User Id:\t" + i + " R\t" + Rmatrix.viewRow(i) + "\n");
+//                    makeNewLoggerInstance("User Id:" + i + " R\t" + Rmatrix.viewRow(i));
+                    Rout.emit("User Id:\t" + i + " R\t" + R + "\n");
                 }
 
             }
@@ -67,7 +67,6 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
         numUsers=new Integer(0);
         userMatrix=new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
         Rmatrix  = new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
-        super.setup(context);
     }
 
     @Override

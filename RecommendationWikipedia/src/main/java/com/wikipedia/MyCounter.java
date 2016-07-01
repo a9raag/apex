@@ -15,7 +15,7 @@ public class MyCounter extends UniqueCounter<String> {
 
     @Override
     public void endWindow() {
-        System.out.println("Processing: " + map.size());
+//        System.out.println("Processing: " + map.size());
         super.endWindow();
     }
 }

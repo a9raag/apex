@@ -16,16 +16,16 @@ import java.util.Iterator;
  */
 public class CooccurrenceRow extends BaseOperator implements LoggerFactory {
     public  transient  final DefaultOutputPort<String> coOccures= new DefaultOutputPort<>();
-    public transient final DefaultInputPort<HashMap<Integer,Vector>> hashInput=new DefaultInputPort<HashMap<Integer, Vector>>() {
+    public transient final DefaultInputPort<Entry> hashInput=new DefaultInputPort<Entry>() {
 
         @Override
-        public void process(HashMap<Integer, Vector> tuple) {
-            int key=tuple.keySet().iterator().next();
-            Iterable<Vector.Element> iterable = tuple.get(key).nonZeroes();
+        public void process(Entry tuple) {
+            int key=tuple.getUid();
+            Iterable<Vector.Element> iterable = tuple.getV().nonZeroes();
             Iterator<Vector.Element> it= iterable.iterator();
             while (it.hasNext()) {
                 Integer index1=it.next().index();
-                Iterable<Vector.Element> iterable1= tuple.get(key).nonZeroes();
+                Iterable<Vector.Element> iterable1= tuple.getV().nonZeroes();
                 Iterator<Vector.Element> it2=iterable1.iterator();
                 while(it2.hasNext()){
                     Integer index2=it2.next().index();

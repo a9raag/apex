@@ -3,6 +3,7 @@ com/wikipedia/Test.class
 com/wikipedia/CooccurrenceRow.class
 com/wikipedia/BuildRecommendationTest$2.class
 com/wikipedia/RandomNumberGenerator.class
+com/wikipedia/Entry.class
 com/wikipedia/ReadFile.class
 com/wikipedia/BuildRecommendation$2.class
 com/wikipedia/BuildRecommendationTest$1.class

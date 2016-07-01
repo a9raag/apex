@@ -25,6 +25,5 @@ public class WriteToFile extends AbstractFileOutputOperator<String> {
     @Override
     protected void processTuple(String tuple) {
         super.processTuple(tuple);
-        System.out.println(tuple);
     }
 }

@@ -3,9 +3,7 @@ package com.wikipedia;
 import org.apache.mahout.cf.taste.impl.recommender.ByValueRecommendedItemComparator;
 import org.apache.mahout.cf.taste.impl.recommender.GenericRecommendedItem;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
-import org.apache.mahout.math.Matrix;
-import org.apache.mahout.math.RandomAccessSparseVector;
-import org.apache.mahout.math.SparseMatrix;
+import org.apache.mahout.math.*;
 import org.apache.mahout.math.Vector;
 
 import java.util.*;
@@ -25,6 +23,16 @@ public class Test {
         Matcher m =NUMBERS.matcher(user);
         Vector recommendationVector= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
 //        System.out.println(recommendationVector);
+        int n = 65537;
+        Double d= new Double(n * (n + 1) / 2);
+        System.out.println(d);
+        Matrix symmetricMatrix= new DenseSymmetricMatrix(n);
+
+        symmetricMatrix.set(1,3,2.0);
+        symmetricMatrix.get(112,312);
+//        System.out.println(upperTriangular.get(3,1));
+//        System.out.println(upperTriangular.viewRow(1));
+//        System.out.println(upperTriangular);
         while(m.find()){
             String [] v= m.group().split(":");
             recommendationVector.set(Integer.parseInt(v[0]),Double.parseDouble(v[1]));

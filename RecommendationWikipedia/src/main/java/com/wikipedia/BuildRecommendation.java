@@ -6,81 +6,71 @@ import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggerFactory;
-import org.apache.mahout.math.RandomAccessSparseVector;
+import org.apache.mahout.math.Matrix;
+import org.apache.mahout.math.SparseMatrix;
 import org.apache.mahout.math.Vector;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-
-public class BuildRecommendation extends BaseOperator implements LoggerFactory {
-    Vector R;
-    List<HashMap<Integer,Vector>> userMaps;
-    Integer cnt;
-
+public class BuildRecommendation extends BaseOperator implements LoggerFactory{
     public transient  final DefaultOutputPort<String> Rout = new DefaultOutputPort<>();
+
+//    @FieldSerializer.Bind(JavaSerializer.class)
+    public transient Matrix userMatrix,Rmatrix,cMatrix;
+    Integer numUsers;
+    public transient final DefaultInputPort<Entry> userVector = new DefaultInputPort<Entry>() {
+        @Override
+        public void process(Entry tuple) {
+            Integer key=tuple.getUid();
+            userMatrix.assignRow(key,tuple.getV());
+            numUsers++;
+        }
+    };
+
     @Override
     public void setup(Context.OperatorContext context) {
-        R= new RandomAccessSparseVector(Integer.MAX_VALUE,100);
-        userMaps =new ArrayList<>();
-        cnt=new Integer(0);
-        super.setup(context);
+        numUsers=new Integer(0);
+        userMatrix=new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
+        Rmatrix  = new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
+//        cMatrix= new SparseMatrix(Integer.MAX_VALUE,Integer.MAX_VALUE);
     }
 
-    public transient final DefaultInputPort<HashMap<Integer,Vector>> userVector = new DefaultInputPort<HashMap<Integer, Vector>>() {
+    public transient final DefaultInputPort<String> xyInput=new DefaultInputPort<String>() {
         @Override
-        public void process(HashMap<Integer, Vector> tuple) {
-            userMaps.add(tuple);
-//            makeNewLoggerInstance("userVector");
+        public void process(String tuple) {
+            Vector R;
+            String [] xy=tuple.split(":");
+            Integer X= Integer.valueOf(xy[0]);
+            Integer Y= Integer.valueOf(xy[1]);
+            Double count =1.0;
+//            cMatrix.set(X,Y,count);
 
-        }
-    };
-    public transient final DefaultInputPort<HashMap<String,Integer>> xyInput= new DefaultInputPort<HashMap<String, Integer>>() {
-        @Override
-        public void process(HashMap<String,Integer> tuple) {
-            makeNewLoggerInstance("xyIput: " + tuple);
-            HashMap<Integer,Vector> output=new HashMap<>();
-            Iterator<String> keyIterator=tuple.keySet().iterator();
-            while(keyIterator.hasNext()) {
-                String key=keyIterator.next();
-                Pattern pattern = Pattern.compile("(\\d+)");
-                Matcher m = pattern.matcher(key);
-                m.find();
-                Integer X = Integer.parseInt(m.group());
-                m.find();
-                Integer Y = Integer.parseInt(m.group());
-                Integer pref = tuple.get(key);
-                Iterator<HashMap<Integer,Vector>> userIterator=userMaps.listIterator();
-                while(userIterator.hasNext()) {
-                    HashMap<Integer,Vector> userMap=userIterator.next();
-                    Iterator<Integer> userIds=userMap.keySet().iterator();
-                    while(userIds.hasNext()) {
-                        Integer userID = userIds.next();
-                        Vector u = userMap.get(userID);
-                        Double rIndex = R.get(X);
-                        Double uIndex = u.get(Y);
-//                        R[x] += U[y]*Cooccurrences
-                        R.set(X, rIndex + uIndex * pref);
-                        output.put(userID, R);
-                    }
-
-
-                }
-
+            for(int i=1;i<=numUsers;i++){
+                Vector U=userMatrix.viewRow(i);
+                R=Rmatrix.viewRow(i);
+                double Rx=R.get(X);
+                R.set(X,Rx+U.get(Y)*count);
+                Rmatrix.assignRow(i,R);
             }
-            Rout.emit(output.toString());
+            for(Integer i=1;i<=numUsers;i++){
+                Rout.emit(i.toString()+"\t"+Rmatrix.viewRow(i)+"\n");
+            }
+
         }
-
-
     };
+
+    @Override
+    public void endWindow() {
+        super.endWindow();
+    }
+
+    @Override
+    public void beginWindow(long windowId) {
+        super.beginWindow(windowId);
+    }
 
     @Override
     public Logger makeNewLoggerInstance(String s) {
-        Logger log =Logger.getLogger(BuildRecommendation.class);
+        Logger log = Logger.getLogger(BuildRecommendationTest.class);
         log.info(s);
         return  log;
     }

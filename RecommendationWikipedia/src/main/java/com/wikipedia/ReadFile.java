@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -23,15 +24,15 @@ import java.util.regex.Pattern;
  * Created by anurag on 20/6/16.
  */
 public class ReadFile extends AbstractFileInputOperator<String> implements LoggerFactory{
-    public transient final DefaultOutputPort<HashMap<Integer,Vector>> output = new DefaultOutputPort<>();
-    public transient final DefaultOutputPort<HashMap<Integer,Vector>> vector = new DefaultOutputPort<>();
+    public transient final DefaultOutputPort<Entry> output = new DefaultOutputPort<>();
+    public transient final DefaultOutputPort<Entry> vector = new DefaultOutputPort<>();
     private transient BufferedReader br;
     Boolean prefRead = false;
     Boolean toggle = false;
     Integer count,fileReadCount ;
     Vector userVector;
     Random rand= new Random(1);
-    HashMap<Integer, Vector> map = new HashMap<>();
+    Entry map;
 
     @Override
     protected InputStream openFile(Path path) throws IOException {
@@ -75,7 +76,6 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
     @Override
     protected void emit(String s) {
 
-        map.clear();
         Pattern Numbers = Pattern.compile("(\\d+)");
         Matcher m = Numbers.matcher(s);
 
@@ -84,9 +84,9 @@ public class ReadFile extends AbstractFileInputOperator<String> implements Logge
         userVector = new RandomAccessSparseVector(Integer.MAX_VALUE, 100);
         while (m.find()) {
             int pref = rand.nextInt((10 - 1) + 1) + 1;
-            userVector.set(Integer.parseInt(m.group()), pref);
+            userVector.set(Integer.parseInt(m.group()), 5);
         }
-        map.put(userId, userVector);
+        map = new Entry(userId, userVector);
 //        makeNewLoggerInstance("T "+toggle.toString()+" P "+prefRead.toString());
         if(!prefRead){
             vector.emit(map);

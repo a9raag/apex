@@ -19,8 +19,8 @@
   </property>
   <property>
     <name>dt.application.WikipediaApplication.operator.readFile.prop.directory</name>
-    <value>input/</value>
-    <!--<value>file:///home/anurag/Downloads/buildRTest.txt</value>-->
+    <!--<value>test/</value>-->
+    <value>file:///home/anurag/Downloads/buildRTest.txt</value>
     <!--<value>file:///home/anurag/apex-all/RecommendationWikipedia/src/main/resources/Data/links.txt</value>-->
   </property>
 

@@ -7,6 +7,7 @@ import com.datatorrent.api.StreamingApplication;
 import com.datatorrent.api.annotation.ApplicationAnnotation;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.mahout.common.RandomUtils;
+import org.omg.PortableServer.THREAD_POLICY_ID;
 
 import java.util.Random;
 import java.util.RandomAccess;
@@ -21,14 +22,14 @@ public class Application implements StreamingApplication
       RandomUtils.useTestSeed();
       ReadFile readFile = dag.addOperator("readFile",new ReadFile());
       CooccurrenceRow cRow=dag.addOperator("cooccurrenceRow",new CooccurrenceRow());
-      RecommendationStart counter= dag.addOperator("Cooccurrences",new RecommendationStart());
-      counter.setCumulative(true);
+//      RecommendationStart counter= dag.addOperator("Cooccurrences",new RecommendationStart());
+//      counter.setCumulative(true);
       WriteToFile writeToFile = dag.addOperator("FileWriter", new WriteToFile());
-      BuildRecommendationTest buildR= dag.addOperator("buildR",new BuildRecommendationTest());
+      BuildRecommendation buildR= dag.addOperator("buildR",new BuildRecommendation());
       dag.addStream("Read The File",readFile.output,cRow.hashInput);
       dag.addStream("UserVectors",readFile.vector,buildR.userVector);
-      dag.addStream("Produce Cooccurrence",cRow.coOccures,counter.data);
-      dag.addStream("BuildR from Cooccurrences",counter.count,buildR.xyInput);
+      dag.addStream("Produce Cooccurrence",cRow.coOccures,buildR.xyInput);
+//      dag.addStream("BuildR from Cooccurrences",counter.count,buildR.xyInput);
       dag.addStream("Update Recommendations",buildR.Rout,writeToFile.input);
 
 //    dag.addStream("randomData", randomGenerator.out, cons.input).setLocality(Locality.CONTAINER_LOCAL);
