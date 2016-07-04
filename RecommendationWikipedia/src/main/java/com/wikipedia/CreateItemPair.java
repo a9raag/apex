@@ -20,6 +20,7 @@ public class CreateItemPair extends BaseOperator implements LoggerFactory {
 
         @Override
         public void process(HashMap<Integer, Vector> tuple) {
+            //makeNewLoggerInstance("creating item pairs..................ssssssssssssssssssssss");
             int key=tuple.keySet().iterator().next();
             Iterable<Vector.Element> iterable = tuple.get(key).nonZeroes();
             Iterator<Vector.Element> it= iterable.iterator();
@@ -28,6 +29,7 @@ public class CreateItemPair extends BaseOperator implements LoggerFactory {
                 Integer index1=it.next().index();
                 Iterable<Vector.Element> iterable1= tuple.get(key).nonZeroes();
                 Iterator<Vector.Element> it2=iterable1.iterator();
+              //  makeNewLoggerInstance("creating item pairs..................eeeeeeeeeeeeeeeeeee");
                 while(it2.hasNext()){
                     Integer index2=it2.next().index();
                     coOccures.emit(index1.toString()+":"+index2.toString());
@@ -45,5 +47,17 @@ public class CreateItemPair extends BaseOperator implements LoggerFactory {
         Logger log = Logger.getLogger(CreateItemPair.class);
         log.info(s);
         return log;
+    }
+
+    @Override
+    public void beginWindow(long windowId) {
+        super.beginWindow(windowId);
+       // makeNewLoggerInstance("begin window in create pair");
+    }
+
+    @Override
+    public void endWindow() {
+        super.endWindow();
+        //makeNewLoggerInstance("end window in create pair");
     }
 }

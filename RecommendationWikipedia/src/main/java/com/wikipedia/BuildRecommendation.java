@@ -5,7 +5,9 @@ import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
 import com.datatorrent.common.util.NumberAggregate;
+import com.datatorrent.netlet.util.VarInt;
 import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
+import org.apache.commons.lang.mutable.MutableInt;
 import org.apache.log4j.Logger;
 import org.apache.log4j.spi.LoggerFactory;
 import org.apache.mahout.math.RandomAccessSparseVector;
@@ -13,10 +15,7 @@ import org.apache.mahout.math.Vector;
 import org.apache.mahout.vectorizer.encoders.InteractionValueEncoder;
 
 import java.sql.Array;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -40,16 +39,17 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
         @Override
         public void process(HashMap<Integer, Vector> tuple) {
             userMaps.add(tuple);
-//            makeNewLoggerInstance("userVector");
+            makeNewLoggerInstance("userVector");
 
         }
     };
-    public transient final DefaultInputPort<HashMap<String,Integer>> xyInput= new DefaultInputPort<HashMap<String, Integer>>() {
+    public transient final DefaultInputPort<MyEntry> xyInput = new DefaultInputPort<MyEntry>() {
         @Override
-        public void process(HashMap<String,Integer> tuple) {
-            makeNewLoggerInstance("usermaps " + userMaps);
+        public void process(MyEntry tuple) {
+            //makeNewLoggerInstance("usermaps " + userMaps);
             HashMap<Integer,Vector> output=new HashMap<>();
-            Iterator<HashMap<Integer,Vector>> userIterator1=userMaps.iterator();
+            makeNewLoggerInstance("we got this "+tuple.getItemPair()+"and cocount "+tuple.getCoCount());
+            /*Iterator<HashMap<Integer,Vector>> userIterator1=userMaps.iterator();
             int s1=0;
             while(userIterator1.hasNext()) {
                 HashMap<Integer, Vector> userMap = userIterator1.next();
@@ -68,9 +68,9 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
 
                 }
                 makeNewLoggerInstance("add s1 "+s1);
-            }
+            }*/
 
-            Iterator<HashMap<Integer,Vector>> userIterator=userMaps.iterator();
+           /* Iterator<HashMap<Integer,Vector>> userIterator=userMaps.iterator();
 
             while(userIterator.hasNext()) {
                 HashMap<Integer, Vector> userMap = userIterator.next();
@@ -85,7 +85,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
                     Double finalans=0.0;
                     for(int i=1;i<=s1;i++){
                         Double answer=0.0;
-                        ArrayList<String> b = getCoCount(i,tuple);
+                        //ArrayList<String> b = getCoCount(i,tuple);
                         for (int j=0;j<b.size();j++) {
                             String x[] = b.get(j).split(" ");
                             makeNewLoggerInstance("split : C" + x[0] + " X" + x[1] + " Y" + x[2]);
@@ -99,14 +99,14 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
 
                 }
 
-            }
+            }*/
             Rout.emit(output.toString());
         }
 
 
     };
-
-    public ArrayList<String> getCoCount(int Yindex, HashMap<String,Integer> tuple) {
+/*
+    public ArrayList<String> getCoCount(int Yindex, Map.Entry<String,Integer> tuple) {
 
         ArrayList<String> a = new ArrayList<>();
         Iterator<String> keyIterator = tuple.keySet().iterator();
@@ -127,7 +127,7 @@ public class BuildRecommendation extends BaseOperator implements LoggerFactory {
         }
         makeNewLoggerInstance("for "+Yindex+"= :" +a);
         return a;
-    }
+    }*/
     @Override
     public Logger makeNewLoggerInstance(String s) {
         Logger log =Logger.getLogger(BuildRecommendation.class);
