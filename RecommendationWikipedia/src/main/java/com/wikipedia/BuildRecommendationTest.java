@@ -20,9 +20,9 @@ public class BuildRecommendationTest extends BaseOperator implements LoggerFacto
     Matrix userMatrix,Rmatrix;
     HashMap<Integer,RandomAccessSparseVector> userMaps;
     Integer numUsers;
-    public transient final DefaultInputPort<Entry> userVector = new DefaultInputPort<Entry>() {
+    public transient final DefaultInputPort<EntryPair> userVector = new DefaultInputPort<EntryPair>() {
         @Override
-        public void process(Entry tuple) {
+        public void process(EntryPair tuple) {
             Integer key=tuple.getUid();
             System.out.println("Assigning: " + tuple.getV());
             userMatrix.assignRow(key,tuple.getV());
