@@ -3,14 +3,15 @@ package com.wikipedia;
 import com.datatorrent.api.Context;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.lib.io.fs.AbstractFileInputOperator;
+import com.google.common.collect.Maps;
+
 import org.apache.hadoop.fs.Path;
-import org.apache.mahout.math.RandomAccessSparseVector;
-import org.apache.mahout.math.Vector;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
@@ -27,7 +28,7 @@ public class ReadFile extends AbstractFileInputOperator<String>
   Boolean prefRead = false;
   Boolean toggle = false;
   int count, fileReadCount;
-  Vector userVector;
+  Map<Integer, Double> userPreferences;
   Random rand = new Random(1);
   EntryPair map;
 
@@ -85,11 +86,11 @@ public class ReadFile extends AbstractFileInputOperator<String>
 
     m.find();
     Integer userId = Integer.valueOf(m.group());
-    userVector = new RandomAccessSparseVector(Integer.MAX_VALUE, 100);
+    userPreferences = Maps.newHashMap();
     while (m.find()) {
-      userVector.set(Integer.parseInt(m.group()), ThreadLocalRandom.current().nextDouble(10));
+      userPreferences.put(Integer.parseInt(m.group()), ThreadLocalRandom.current().nextDouble(10));
     }
-    map = new EntryPair(userId, userVector);
+    map = new EntryPair(userId, userPreferences);
     if (!prefRead) {
       vector.emit(map);
     } else {

@@ -3,9 +3,8 @@ package com.wikipedia;
 import com.datatorrent.api.DefaultInputPort;
 import com.datatorrent.api.DefaultOutputPort;
 import com.datatorrent.common.util.BaseOperator;
-import org.apache.mahout.math.Vector;
 
-import java.util.Iterator;
+import java.util.Map.Entry;
 
 /**
  * Created by anurag on 21/6/16.
@@ -19,15 +18,13 @@ public class Cooccurrences extends BaseOperator
     @Override
     public void process(EntryPair tuple)
     {
-      Iterable<Vector.Element> iterable = tuple.getV().nonZeroes();
-      Iterator<Vector.Element> it = iterable.iterator();
-      while (it.hasNext()) {
-        Integer index1 = it.next().index();
-        Iterable<Vector.Element> iterable1 = tuple.getV().nonZeroes();
-        Iterator<Vector.Element> it2 = iterable1.iterator();
-        while (it2.hasNext()) {
-          Integer index2 = it2.next().index();
-          pairOutput.emit(index1 + ":" + index2);
+      for (Entry<Integer, Double> entry1: tuple.getV().entrySet()) {
+        for (Entry<Integer, Double> entry2: tuple.getV().entrySet()) {
+          if(entry1.getKey() < entry2.getKey()) {
+            pairOutput.emit(entry1.getKey() + ":" + entry2.getKey());
+          } else {
+            pairOutput.emit(entry2.getKey() + ":" + entry1.getKey());
+          }
         }
       }
     }

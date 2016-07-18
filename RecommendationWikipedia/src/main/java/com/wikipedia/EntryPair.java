@@ -1,6 +1,6 @@
 package com.wikipedia;
 
-import org.apache.mahout.math.Vector;
+import java.util.Map;
 
 /**
  * Created by anurag on 30/6/16.
@@ -9,13 +9,13 @@ public class EntryPair
 {
 
   int uid;
-  Vector v;
+  Map<Integer, Double> v;
 
   public EntryPair()
   {
   }
 
-  public EntryPair(int uid, Vector v)
+  public EntryPair(int uid, Map<Integer, Double> v)
   {
     this.uid = uid;
     this.v = v;
@@ -31,12 +31,12 @@ public class EntryPair
     this.uid = uid;
   }
 
-  public Vector getV()
+  public Map<Integer, Double> getV()
   {
     return v;
   }
 
-  public void setV(Vector v)
+  public void setV(Map<Integer, Double> v)
   {
     this.v = v;
   }
