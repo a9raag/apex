@@ -49,10 +49,13 @@ public class Recommender extends BaseOperator
         int Y = Integer.parseInt(XY[1]);
         int count = tuple.get(userKey);
 
-        for (int i = 1; i <= numUsers; i++) {
+        for (int i: userPreferences.keySet()) {
           HashMap<Integer, Double> prefs = userPreferences.get(i);
+          if(! prefs.containsKey(Y)) {
+            continue;
+          }
           recommendation = recommendations.get(i);
-          if(recommendation != null) {
+          if(recommendation != null && recommendation.containsKey(X)) {
             Rx = recommendation.get(X);
           } else {
             recommendation = new HashMap<>();
